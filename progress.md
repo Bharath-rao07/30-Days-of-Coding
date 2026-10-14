@@ -27,17 +27,59 @@ Completed ✅
 **Date:** 14 October 2026
 
 ### Completed
-- [ ] Created the Python calculator.
-- [ ] Created the C calculator.
-- [ ] Tested arithmetic operations.
-- [ ] Handled division by zero.
-- [ ] Pushed my changes to GitHub.
+- [x] Created the Python calculator.
+- [x] Created the C calculator.
+- [x] Practised arithmetic operations.
+- [x] Learned how to handle division by zero.
+- [ ] Confirmed that all test cases pass.
+- [ ] Confirmed that changes were pushed to GitHub.
 
 ### What I Learned
 - Arithmetic operators (`+`, `-`, `*`, `/`).
 - Taking numeric input in Python and C.
-- Using `if`, `elif`, and `else`.
+- Using `if`, `elif`, `else` in Python and `if`, `else if`, `else` in C.
 - Handling invalid operators and division by zero.
 
+### Status
+Programs completed; testing and GitHub status need confirmation.
+
+---
+
+## Day 3 — Number Analysis
+
+**Date:** 14 October 2026
+
+### Tasks
+- [ ] Create `Python/day03_number_analysis.py`.
+- [ ] Create `C/day03_number_analysis.c`.
+- [ ] Check whether a number is even or odd.
+- [ ] Check whether a number is positive, negative, or zero.
+- [ ] Test both programs with positive, negative, and zero inputs.
+- [ ] Fix any errors.
+- [ ] Update this progress file.
+- [ ] Commit and push changes to GitHub.
+
+### What I Will Learn
+- Modulus operator (`%`).
+- Even and odd number checking.
+- Comparison operators (`>`, `<`, `==`).
+- Conditional statements.
+- Testing and debugging programs in Python and C.
+
+### Status
+In progress 🚀
+
 ### Next Goal
-Build an Even/Odd Checker and Number Analysis program in Python and C.
+Complete and test the Number Analysis programs in both Python and C.
+
+---
+
+## Project Overview
+
+**Project:** 30-Days-of-Coding
+
+**Languages:** Python and C
+
+**Goal:** Practise programming every day, improve problem-solving skills, and build a consistent GitHub portfolio.
+
+**Progress:** Day 1 completed. Day 2 programs created, with testing and push status to be confirmed. Day 3 in progress.
