@@ -49,28 +49,59 @@ Programs completed; testing and GitHub status need confirmation.
 
 **Date:** 14 October 2026
 
-### Tasks
-- [ ] Create `Python/day03_number_analysis.py`.
-- [ ] Create `C/day03_number_analysis.c`.
-- [ ] Check whether a number is even or odd.
-- [ ] Check whether a number is positive, negative, or zero.
-- [ ] Test both programs with positive, negative, and zero inputs.
-- [ ] Fix any errors.
-- [ ] Update this progress file.
-- [ ] Commit and push changes to GitHub.
+### Completed
+- [x] Completed the Number Analysis task.
+- [x] Practised checking whether a number is even or odd.
+- [x] Practised checking whether a number is positive, negative, or zero.
+- [x] Practised conditional statements and comparison operators.
 
-### What I Will Learn
+### What I Learned
 - Modulus operator (`%`).
 - Even and odd number checking.
 - Comparison operators (`>`, `<`, `==`).
-- Conditional statements.
-- Testing and debugging programs in Python and C.
+- Conditional statements in Python and C.
+- Basic testing and debugging concepts.
+
+### Status
+Completed ✅
+
+---
+
+## Day 4 — Multiplication Table Generator
+
+**Date:** 15 October 2026
+
+### Tasks
+- [ ] Create and save `Python/day04_multiplication_table.py`.
+- [ ] Create and save `C/day04_multiplication_table.c`.
+- [x] Learn how to generate a multiplication table using a loop.
+- [ ] Run and test the Python program.
+- [ ] Compile and test the C program.
+- [ ] Test with positive, negative, and zero inputs.
+- [ ] Fix any errors.
+- [ ] Update and save this progress file.
+- [ ] Confirm that changes were committed and pushed to GitHub.
+
+### What I Am Learning
+- Using `for` loops in Python and C.
+- Understanding loop initialization, conditions, and incrementing.
+- Multiplying a number by values from 1 to 10.
+- Displaying formatted output.
+- Compiling and running C programs using GCC.
+- Debugging file paths and compilation errors.
+
+### Files
+- Python: `Python/day04_multiplication_table.py`
+- C: `C/day04_multiplication_table.c`
+
+### Current Progress
+The program code and instructions have been provided. I encountered a GCC file-path error while trying to compile the C program. I still need to confirm that the source file is saved in the correct folder and that both programs run successfully.
 
 ### Status
 In progress 🚀
 
 ### Next Goal
-Complete and test the Number Analysis programs in both Python and C.
+Save, run, test, and debug both multiplication table programs, then update GitHub.
 
 ---
 
@@ -82,4 +113,10 @@ Complete and test the Number Analysis programs in both Python and C.
 
 **Goal:** Practise programming every day, improve problem-solving skills, and build a consistent GitHub portfolio.
 
-**Progress:** Day 1 completed. Day 2 programs created, with testing and push status to be confirmed. Day 3 in progress.
+**Progress:**
+- Day 1: Completed, tested, and pushed.
+- Day 2: Programs created; testing and GitHub status need confirmation.
+- Day 3: Completed.
+- Day 4: In progress; program execution and GitHub update need confirmation.
+
+**Next Challenge:** Complete Day 4 and move on to Day 5.
