@@ -5,7 +5,8 @@ int main()
 {
     int num, i, tot=0;
 
-    printf("Enter the positive number : "); scanf("%d",&num);
+    printf("Enter the positive number : ");
+     scanf("%d",&num);
 
     if (num<0)
      {
