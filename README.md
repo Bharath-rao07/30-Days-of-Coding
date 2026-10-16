@@ -1,65 +1,78 @@
-# 30 Days of Coding 🚀
+# 30 Days of Coding
 
-A beginner-friendly coding challenge to improve my programming skills using Python and C.
+Hi! This is my 30 Days of Coding challenge, where I'm practising Python and C to improve my programming skills.
 
-## 🎯 Objectives
+I'm currently learning programming as part of my engineering journey. I know some basics, but I want to get better at writing code, solving problems, and understanding how programs work.
 
-- Practise programming every day.
-- Improve logical thinking and problem-solving.
-- Learn and revise Python and C fundamentals.
-- Understand Git and GitHub workflows.
-- Build a portfolio of beginner-friendly programs.
+## What I want to achieve
 
-## 🛠️ Technologies
+- Practise coding regularly.
+- Improve my logical thinking.
+- Revise Python and C concepts.
+- Learn to find and fix errors in my code.
+- Get more comfortable using Git and GitHub.
+- Build small projects that I can add to my portfolio.
+
+## Tools I'm using
 
 - Python
 - C
-- Git
-- GitHub
 - Visual Studio Code
+- GCC compiler
+- Git and GitHub
 
-## 📂 Project Structure
+## Project structure
 
 ```text
 30-Days-of-Coding/
 ├── Python/
-│   └── day01_profile.py
 ├── C/
-│   └── day01_profile.c
 ├── README.md
 └── Progress.md
 ```
 
-## 📅 Daily Progress
+The Python and C folders contain the programs I'm writing each day. I'm using `Progress.md` to keep track of what I've completed.
 
-| Day | Challenge | Status |
+## My progress
+
+| Day | Program | Status |
 |---|---|---|
-| 01 | Personal Profile Generator in Python and C | In progress |
+| 1 | Personal Profile Generator | Completed |
+| 2 | Simple Calculator | Completed |
+| 3 | Number Analysis | Completed |
+| 4 | Multiplication Table | Completed |
+| 5 | Sum of Natural Numbers | Completed |
+| 6–30 | More coding problems | Upcoming |
 
-## ▶️ How to Run
+## What I've learned so far
 
-### Python
+During the first five days, I practised variables, input and output, arithmetic operators, conditions, loops, and using a variable to calculate a running total.
+
+I also practised running C programs with GCC and working with GitHub to update my code.
+
+I'm still learning, so my programs might not be perfect. The main goal is to practise, understand my mistakes, and improve step by step.
+
+## Running the programs
+
+To run a Python program, open the terminal in the project folder and use:
 
 ```bash
 python Python/day01_profile.py
 ```
 
-### C
-
-Compile and run using GCC:
+To compile and run a C program on Windows:
 
 ```bash
-gcc C/day01_profile.c -o profile
-```
-
-On Windows, run the compiled program using:
-
-```bash
+gcc C/day01_profile.c -o profile.exe
 .\profile.exe
 ```
 
-## 🌱 My Goal
+Replace the filename with the program you want to run.
 
-To become a better programmer by learning consistently, building small projects, and documenting my progress.
+## My goal
 
-*This repository is part of my personal 30-day learning challenge.*
+I want to become a better programmer by coding consistently and learning from practice rather than just memorising syntax.
+
+This is my progress so far, and I'll keep updating the repository as I complete each day.
+
+**One day at a time. One program at a time.**
