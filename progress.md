@@ -5,23 +5,19 @@
 **Date:** 13 October 2026
 
 ### Completed
-
 - [x] Created the GitHub repository.
 - [x] Practised input and output in Python.
 - [x] Practised variables and `printf()` / `scanf()` in C.
 - [x] Tested both programs.
-- [x] Pushed my changes to GitHub.
+- [x] Pushed changes to GitHub.
 
 ### What I Learned
-
 - How to accept user input.
 - How to store information in variables.
 - How to display a formatted profile.
 - Basic differences between Python and C.
 
-### Status
-
-Completed ✅
+**Status:** Completed ✅
 
 ---
 
@@ -30,24 +26,20 @@ Completed ✅
 **Date:** 14 October 2026
 
 ### Completed
-
 - [x] Created the Python calculator.
 - [x] Created the C calculator.
 - [x] Practised arithmetic operations.
 - [x] Learned how to handle division by zero.
-- [x] Confirmed that all test cases pass.
-- [x] Confirmed that changes were pushed to GitHub.
+- [x] Tested the calculator programs.
+- [x] Pushed changes to GitHub.
 
 ### What I Learned
-
 - Arithmetic operators (`+`, `-`, `*`, `/`).
 - Taking numeric input in Python and C.
-- Using `if`, `elif`, `else` in Python and `if`, `else if`, `else` in C.
+- Using conditional statements.
 - Handling invalid operators and division by zero.
 
-### Status
-
-Programs completed; testing and GitHub status need confirmation.
+**Status:** Completed ✅
 
 ---
 
@@ -56,23 +48,18 @@ Programs completed; testing and GitHub status need confirmation.
 **Date:** 14 October 2026
 
 ### Completed
-
 - [x] Completed the Number Analysis task.
-- [x] Practised checking whether a number is even or odd.
-- [x] Practised checking whether a number is positive, negative, or zero.
-- [x] Practised conditional statements and comparison operators.
+- [x] Practised checking even and odd numbers.
+- [x] Practised checking positive, negative, and zero.
+- [x] Used conditional statements and comparison operators.
 
 ### What I Learned
-
 - Modulus operator (`%`).
-- Even and odd number checking.
 - Comparison operators (`>`, `<`, `==`).
 - Conditional statements in Python and C.
-- Basic testing and debugging concepts.
+- Basic testing and debugging.
 
-### Status
-
-Completed ✅
+**Status:** Completed ✅
 
 ---
 
@@ -80,30 +67,25 @@ Completed ✅
 
 **Date:** 15 October 2026
 
-### Tasks
-
-- [x] Learn how to generate a multiplication table using a loop.
-- [x] Complete Day 4, as confirmed by me.
-- [x] Confirm that both programs have been tested successfully.
-- [x] Confirm that the changes were committed and pushed to GitHub.
+### Completed
+- [x] Created the Python program.
+- [x] Created the C program.
+- [x] Practised generating a multiplication table using loops.
+- [x] Worked with loop initialization, conditions, and increments.
+- [x] Completed Day 4.
 
 ### What I Learned
-
 - Using `for` loops in Python and C.
-- Understanding loop initialization, conditions, and incrementing.
 - Multiplying a number by values from 1 to 10.
 - Displaying formatted output.
-- Compiling and running C programs using GCC.
-- Debugging file paths and compilation errors.
+- Compiling C programs using GCC.
+- Fixing file path and compilation issues.
 
 ### Files
-
 - Python: `Python/day04_multiplication_table.py`
 - C: `C/day04_multiplication_table.c`
 
-### Status
-
-Completed by user confirmation; testing and GitHub push are not independently verified.
+**Status:** Completed ✅
 
 ---
 
@@ -111,46 +93,57 @@ Completed by user confirmation; testing and GitHub push are not independently ve
 
 **Date:** 16 October 2026
 
-### Tasks
+### Completed
+- [x] Created the Python program.
+- [x] Created the C program.
+- [x] Learned how accumulator variables work.
+- [x] Calculated the sum of natural numbers using loops.
+- [x] Practised input validation.
+- [x] Worked on the mini-challenge of summing even numbers.
+- [x] Updated the progress file.
 
-- [x] Create and save `Python/day05_sum_of_natural_numbers.py`.
-- [x] Create and save `C/day05_sum_of_natural_numbers.c`.
-- [x] Learn the concept of an accumulator variable.
-- [x] Understand how a running total works.
-- [x] Learn how to calculate the sum using a loop.
-- [x] Run and test the Python program.
-- [x] Compile and test the C program.
-- [x] Test positive, zero, and negative inputs.
-- [x] Complete the mini-challenge of summing even numbers.
-- [x] Update and save this progress file.
-- [x] Confirm that changes were committed and pushed to GitHub.
-
-### What I Am Learning
-
+### What I Learned
 - Accumulator variables.
 - Running totals.
 - Loop-based calculations.
 - Using `for` loops in Python and C.
-- Input validation using conditional statements.
-- Testing and debugging programs.
-- Understanding how variables change during each loop iteration.
+- Checking user input with conditions.
+- Understanding how variables change during each iteration.
 
 ### Files
-
 - Python: `Python/day05_sum_of_natural_numbers.py`
 - C: `C/day05_sum_of_natural_numbers.c`
 
-### Current Progress
+**Status:** Completed by user confirmation. Testing and push status should be verified if needed.
 
-The Day 5 problem and code have been provided. I need to create and save both programs, test them with different inputs, and fix any errors before pushing the changes to GitHub.
+---
 
-### Status
+## Day 6 — Factorial of a Number
 
-In progress 🚀
+**Date:** 17 October 2026
 
-### Next Goal
+### Completed
+- [x] Worked on the factorial problem.
+- [x] Learned how factorials are calculated using multiplication.
+- [x] Used a loop to calculate the factorial.
+- [x] Practised using an accumulator variable.
+- [x] Learned why the factorial of zero is one.
+- [x] Added input validation for negative numbers.
+- [x] Learned about integer limits in C.
 
-Complete, test, and push both Day 5 programs, then continue to Day 6.
+### What I Learned
+- The meaning of factorial (`!`).
+- Multiplying numbers using a loop.
+- Updating a running product.
+- Initializing a variable to `1` for multiplication.
+- Handling zero and negative inputs.
+- Using `unsigned long long` in C for larger non-negative integer results.
+
+### Files
+- Python: `Python/day06_factorial.py`
+- C: `C/day06_factorial.c`
+
+**Status:** Completed by user confirmation. Testing and GitHub push status have not been independently verified.
 
 ---
 
@@ -160,14 +153,26 @@ Complete, test, and push both Day 5 programs, then continue to Day 6.
 
 **Languages:** Python and C
 
-**Goal:** Practise programming every day, improve problem-solving skills, and build a consistent GitHub portfolio.
+**Tools:** Visual Studio Code, GCC, Git, and GitHub
 
-**Progress:**
+### My Goal
 
-- Day 1: Completed, tested, and pushed.
-- Day 2: Programs created; testing and GitHub status need confirmation.
-- Day 3: Completed.
-- Day 4: Completed by user confirmation; testing and push status need verification.
-- Day 5: In progress.
+I want to improve my programming skills by practising every day, understanding concepts, solving problems, and learning from mistakes.
 
-**Next Challenge:** Complete Day 5 — Sum of Natural Numbers.
+### Overall Progress
+
+- Day 1: Personal Profile Generator — Completed
+- Day 2: Simple Calculator — Completed
+- Day 3: Number Analysis — Completed
+- Day 4: Multiplication Table Generator — Completed
+- Day 5: Sum of Natural Numbers — Completed
+- Day 6: Factorial of a Number — Completed
+- Days 7–30: Upcoming challenges
+
+**Progress: 6 out of 30 days completed.**
+
+### Next Goal
+
+Start Day 7 with a new problem that builds on the concepts I have learned so far.
+
+I'll keep updating this file as I continue learning Python and C, one day at a time.
