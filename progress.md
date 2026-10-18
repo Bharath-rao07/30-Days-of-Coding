@@ -147,6 +147,37 @@
 
 ---
 
+## Day 7 — Prime Number Checker
+
+**Date:** 18 October 2026
+
+### Completed
+- [x] Completed the Prime Number Checker challenge.
+- [x] Practised checking whether a number is prime or not.
+- [x] Used the modulus operator to check divisibility.
+- [x] Practised using Boolean variables.
+- [x] Used `for` loops to check possible divisors.
+- [x] Learned how the `break` statement stops a loop.
+- [x] Handled numbers less than 2.
+
+### What I Learned
+- The definition of prime numbers.
+- The difference between prime and composite numbers.
+- Checking divisibility using the modulus operator (`%`).
+- Using Boolean values (`True` and `False` in Python).
+- Representing true and false using `1` and `0` in C.
+- Combining loops and conditional statements.
+- Using `break` to stop a loop when a divisor is found.
+- Handling zero, one, and negative numbers.
+
+### Files
+- Python: `Python/day07_prime_checker.py`
+- C: `C/day07_prime_checker.c`
+
+**Status:** Completed by user confirmation. Testing, mini-challenge, and GitHub push status should be verified separately.
+
+---
+
 ## Project Overview
 
 **Project:** 30-Days-of-Coding
@@ -167,12 +198,13 @@ I want to improve my programming skills by practising every day, understanding c
 - Day 4: Multiplication Table Generator — Completed
 - Day 5: Sum of Natural Numbers — Completed
 - Day 6: Factorial of a Number — Completed
-- Days 7–30: Upcoming challenges
+- Day 7: Prime Number Checker — Completed
+- Days 8–30: Upcoming challenges
 
-**Progress: 6 out of 30 days completed.**
+**Progress: 7 out of 30 days completed.**
 
 ### Next Goal
 
-Start Day 7 with a new problem that builds on the concepts I have learned so far.
+Start Day 8 with a new problem that builds on the concepts I have learned so far.
 
 I'll keep updating this file as I continue learning Python and C, one day at a time.
