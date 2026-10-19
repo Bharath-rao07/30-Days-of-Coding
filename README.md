@@ -32,7 +32,8 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day04_multiplication_table.py
 │   ├── day05_sum_of_natural_numbers.py
 │   ├── day06_factorial.py
-│   └── day07_prime_checker.py
+│   ├── day07_prime_checker.py
+│   └── day08_reverse_number.py
 ├── C/
 │   ├── day01_profile.c
 │   ├── day02_calculator.c
@@ -40,7 +41,8 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day04_multiplication_table.c
 │   ├── day05_sum_of_natural_numbers.c
 │   ├── day06_factorial.c
-│   └── day07_prime_checker.c
+│   ├── day07_prime_checker.c
+│   └── day08_reverse_number.c
 ├── README.md
 └── Progress.md
 ```
@@ -58,11 +60,12 @@ The `Python/` and `C/` folders contain my daily programs. I use `Progress.md` to
 | 5 | Sum of Natural Numbers | Loops, accumulator variables | Completed |
 | 6 | Factorial of a Number | Loops, multiplication, accumulators | Completed |
 | 7 | Prime Number Checker | Divisibility, loops, Boolean variables | Completed |
-| 8–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
+| 8 | Reverse a Number | `while` loops, digit extraction, integer division | Completed |
+| 9–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
 
 ## What I've Learned So Far
 
-During the first seven days, I practised:
+During the first eight days, I practised:
 
 - Variables and data types.
 - Taking input and displaying output.
@@ -75,6 +78,10 @@ During the first seven days, I practised:
 - Calculating factorials and handling zero and negative inputs.
 - Checking whether a number is prime using divisibility.
 - Using Boolean variables and the `break` statement.
+- Reversing a number using a `while` loop.
+- Extracting digits using the modulus operator (`% 10`).
+- Removing the last digit using integer division.
+- Building a reversed number using `reverse = reverse * 10 + digit`.
 - Compiling C programs using GCC.
 - Finding errors and practising Git and GitHub workflows.
 
@@ -102,6 +109,12 @@ To run the prime number checker:
 
 ```powershell
 python Python/day07_prime_checker.py
+```
+
+To run the reverse number program:
+
+```powershell
+python Python/day08_reverse_number.py
 ```
 
 ### C
@@ -132,6 +145,13 @@ gcc C/day07_prime_checker.c -o prime_checker.exe
 .\prime_checker.exe
 ```
 
+To compile and run the reverse number program:
+
+```powershell
+gcc C/day08_reverse_number.c -o reverse_number.exe
+.\reverse_number.exe
+```
+
 You can use the same process for the other programs by changing the filenames.
 
 ## My Goal
@@ -140,6 +160,6 @@ I want to become a better programmer by coding consistently, understanding conce
 
 This repository is a record of what I'm learning throughout the challenge. I'll keep adding programs and updating my progress as I move through the remaining days.
 
-**Progress: 7 out of 30 days completed.**
+**Progress: 8 out of 30 days completed.**
 
 **One day at a time. One program at a time.**

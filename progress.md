@@ -178,6 +178,35 @@
 
 ---
 
+## Day 8 — Reverse a Number
+
+**Date:** 19 October 2026
+
+### Completed
+- [x] Worked on the Reverse a Number problem.
+- [x] Practised reversing a number using loops.
+- [x] Used the modulus operator to extract the last digit.
+- [x] Used integer division to remove the last digit.
+- [x] Used an accumulator-style variable to build the reversed number.
+- [x] Handled zero and negative input cases.
+
+### What I Learned
+- How to extract the last digit using `% 10`.
+- How integer division (`//` in Python and `/` with integers in C) removes the last digit.
+- How to build a reversed number using `reverse = reverse * 10 + digit`.
+- How a `while` loop repeats until a condition becomes false.
+- Why the original number should be stored before changing it.
+- Why reversing `1200` gives `21` when the result is stored as an integer.
+- How to handle zero and reject negative inputs.
+
+### Files
+- Python: `Python/day08_reverse_number.py`
+- C: `C/day08_reverse_number.c`
+
+**Status:** Completed by user confirmation. Testing, mini-challenge, and GitHub push status should be verified separately.
+
+---
+
 ## Project Overview
 
 **Project:** 30-Days-of-Coding
@@ -199,12 +228,13 @@ I want to improve my programming skills by practising every day, understanding c
 - Day 5: Sum of Natural Numbers — Completed
 - Day 6: Factorial of a Number — Completed
 - Day 7: Prime Number Checker — Completed
-- Days 8–30: Upcoming challenges
+- Day 8: Reverse a Number — Completed
+- Days 9–30: Upcoming challenges
 
-**Progress: 7 out of 30 days completed.**
+**Progress: 8 out of 30 days completed.**
 
 ### Next Goal
 
-Start Day 8 with a new problem that builds on the concepts I have learned so far.
+Start Day 9 with a new problem that builds on the concepts I have learned so far.
 
 I'll keep updating this file as I continue learning Python and C, one day at a time.
