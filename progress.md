@@ -114,7 +114,7 @@
 - Python: `Python/day05_sum_of_natural_numbers.py`
 - C: `C/day05_sum_of_natural_numbers.c`
 
-**Status:** Completed by user confirmation. Testing and push status should be verified if needed.
+**Status:** Completed by user confirmation. Testing and GitHub push status have not been independently verified.
 
 ---
 
@@ -174,7 +174,7 @@
 - Python: `Python/day07_prime_checker.py`
 - C: `C/day07_prime_checker.c`
 
-**Status:** Completed by user confirmation. Testing, mini-challenge, and GitHub push status should be verified separately.
+**Status:** Completed by user confirmation. Testing, mini-challenge, and GitHub push status have not been independently verified.
 
 ---
 
@@ -192,7 +192,7 @@
 
 ### What I Learned
 - How to extract the last digit using `% 10`.
-- How integer division (`//` in Python and `/` with integers in C) removes the last digit.
+- How integer division (`//` in Python and integer division in C) removes the last digit.
 - How to build a reversed number using `reverse = reverse * 10 + digit`.
 - How a `while` loop repeats until a condition becomes false.
 - Why the original number should be stored before changing it.
@@ -203,7 +203,40 @@
 - Python: `Python/day08_reverse_number.py`
 - C: `C/day08_reverse_number.c`
 
-**Status:** Completed by user confirmation. Testing, mini-challenge, and GitHub push status should be verified separately.
+**Status:** Completed by user confirmation. Testing, mini-challenge, and GitHub push status have not been independently verified.
+
+---
+
+## Day 9 — Palindrome Number Checker
+
+**Date:** 20 October 2026
+
+### Completed
+- [x] Completed the Palindrome Number Checker challenge.
+- [x] Practised checking whether a number reads the same forward and backward.
+- [x] Used a loop to reverse the digits of a number.
+- [x] Used the modulus operator (`% 10`) to extract digits.
+- [x] Used integer division to remove digits.
+- [x] Stored the original number before reversing it.
+- [x] Compared the reversed number with the original number.
+- [x] Handled negative inputs by asking for a non-negative number.
+- [x] Corrected logical errors and output messages in the C program.
+
+### What I Learned
+- The meaning of a palindrome number.
+- How to check whether a number is a palindrome.
+- How to combine loops, arithmetic operators, and conditional statements.
+- Why the original number must be preserved for comparison.
+- Why the comparison must be `rev == original` after the loop.
+- How to identify and correct logical errors in C.
+- Why clear and accurate output messages matter.
+- How zero can be treated as a palindrome number.
+
+### Files
+- Python: `Python/day09_palindrome_checker.py`
+- C: `C/day09_palindrome_checker.c`
+
+**Status:** Completed by user confirmation. GitHub push status has not been independently verified.
 
 ---
 
@@ -229,12 +262,13 @@ I want to improve my programming skills by practising every day, understanding c
 - Day 6: Factorial of a Number — Completed
 - Day 7: Prime Number Checker — Completed
 - Day 8: Reverse a Number — Completed
-- Days 9–30: Upcoming challenges
+- Day 9: Palindrome Number Checker — Completed
+- Days 10–30: Upcoming challenges
 
-**Progress: 8 out of 30 days completed.**
+**Progress: 9 out of 30 days completed.**
 
 ### Next Goal
 
-Start Day 9 with a new problem that builds on the concepts I have learned so far.
+Start **Day 10** with a new programming problem that builds on the concepts I have learned so far.
 
-I'll keep updating this file as I continue learning Python and C, one day at a time.
+I'll keep updating this file as I continue learning Python and C, one day at a time. 🚀

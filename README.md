@@ -1,6 +1,6 @@
-# 30 Days of Coding
+# 30 Days of Coding 🚀
 
-Hi! This is my 30 Days of Coding challenge, where I'm practising Python and C to improve my programming skills.
+Hi! This is my **30 Days of Coding** challenge, where I'm practising Python and C to improve my programming skills.
 
 I'm learning programming as part of my engineering journey. I know some basics, and I'm using this challenge to improve my coding, logical thinking, and problem-solving skills through regular practice.
 
@@ -33,7 +33,8 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day05_sum_of_natural_numbers.py
 │   ├── day06_factorial.py
 │   ├── day07_prime_checker.py
-│   └── day08_reverse_number.py
+│   ├── day08_reverse_number.py
+│   └── day09_palindrome_checker.py
 ├── C/
 │   ├── day01_profile.c
 │   ├── day02_calculator.c
@@ -42,12 +43,13 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day05_sum_of_natural_numbers.c
 │   ├── day06_factorial.c
 │   ├── day07_prime_checker.c
-│   └── day08_reverse_number.c
+│   ├── day08_reverse_number.c
+│   └── day09_palindrome_checker.c
 ├── README.md
 └── Progress.md
 ```
 
-The `Python/` and `C/` folders contain my daily programs. I use `Progress.md` to keep track of the tasks I've completed and the concepts I'm learning.
+The `Python/` and `C/` folders contain my daily programs. I use `Progress.md` to track the tasks I've completed and the concepts I'm learning.
 
 ## My Progress
 
@@ -61,11 +63,12 @@ The `Python/` and `C/` folders contain my daily programs. I use `Progress.md` to
 | 6 | Factorial of a Number | Loops, multiplication, accumulators | Completed |
 | 7 | Prime Number Checker | Divisibility, loops, Boolean variables | Completed |
 | 8 | Reverse a Number | `while` loops, digit extraction, integer division | Completed |
-| 9–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
+| 9 | Palindrome Number Checker | Reversing digits, loops, comparisons | Completed |
+| 10–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
 
 ## What I've Learned So Far
 
-During the first eight days, I practised:
+During the first nine days, I practised:
 
 - Variables and data types.
 - Taking input and displaying output.
@@ -82,6 +85,8 @@ During the first eight days, I practised:
 - Extracting digits using the modulus operator (`% 10`).
 - Removing the last digit using integer division.
 - Building a reversed number using `reverse = reverse * 10 + digit`.
+- Checking whether a number is a palindrome by comparing the original and reversed numbers.
+- Using conditional statements to display the correct result.
 - Compiling C programs using GCC.
 - Finding errors and practising Git and GitHub workflows.
 
@@ -115,6 +120,12 @@ To run the reverse number program:
 
 ```powershell
 python Python/day08_reverse_number.py
+```
+
+To run the palindrome number checker:
+
+```powershell
+python Python/day09_palindrome_checker.py
 ```
 
 ### C
@@ -152,14 +163,21 @@ gcc C/day08_reverse_number.c -o reverse_number.exe
 .\reverse_number.exe
 ```
 
+To compile and run the palindrome number checker:
+
+```powershell
+gcc C/day09_palindrome_checker.c -o palindrome_checker.exe
+.\palindrome_checker.exe
+```
+
 You can use the same process for the other programs by changing the filenames.
 
-## My Goal
+## My Goal 🎯
 
 I want to become a better programmer by coding consistently, understanding concepts, solving problems, and learning from my mistakes.
 
 This repository is a record of what I'm learning throughout the challenge. I'll keep adding programs and updating my progress as I move through the remaining days.
 
-**Progress: 8 out of 30 days completed.**
+**Progress: 9 out of 30 days completed.** 📈
 
-**One day at a time. One program at a time.**
+**One day at a time. One program at a time.** 💻
