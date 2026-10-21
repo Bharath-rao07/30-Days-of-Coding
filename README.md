@@ -34,7 +34,8 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day06_factorial.py
 │   ├── day07_prime_checker.py
 │   ├── day08_reverse_number.py
-│   └── day09_palindrome_checker.py
+│   ├── day09_palindrome_checker.py
+│   └── day10_armstrong_number.py
 ├── C/
 │   ├── day01_profile.c
 │   ├── day02_calculator.c
@@ -44,14 +45,15 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day06_factorial.c
 │   ├── day07_prime_checker.c
 │   ├── day08_reverse_number.c
-│   └── day09_palindrome_checker.c
+│   ├── day09_palindrome_checker.c
+│   └── day10_armstrong_number.c
 ├── README.md
 └── Progress.md
 ```
 
 The `Python/` and `C/` folders contain my daily programs. I use `Progress.md` to track the tasks I've completed and the concepts I'm learning.
 
-## My Progress
+## My Progress 📈
 
 | Day | Program | Main Concepts | Status |
 |---|---|---|---|
@@ -64,11 +66,14 @@ The `Python/` and `C/` folders contain my daily programs. I use `Progress.md` to
 | 7 | Prime Number Checker | Divisibility, loops, Boolean variables | Completed |
 | 8 | Reverse a Number | `while` loops, digit extraction, integer division | Completed |
 | 9 | Palindrome Number Checker | Reversing digits, loops, comparisons | Completed |
-| 10–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
+| 10 | Armstrong Number Checker | Digit counting, powers, loops, functions | Completed |
+| 11–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
+
+**Current progress: 10 out of 30 days completed (33.3%).**
 
 ## What I've Learned So Far
 
-During the first nine days, I practised:
+During the first ten days, I practised:
 
 - Variables and data types.
 - Taking input and displaying output.
@@ -86,6 +91,12 @@ During the first nine days, I practised:
 - Removing the last digit using integer division.
 - Building a reversed number using `reverse = reverse * 10 + digit`.
 - Checking whether a number is a palindrome by comparing the original and reversed numbers.
+- Understanding Armstrong numbers and calculating the sum of digit powers.
+- Counting the digits in a number.
+- Using `len(str(num))` in Python to count digits.
+- Using the `**` operator in Python to calculate powers.
+- Writing a custom `power()` function in C using a loop.
+- Preserving the original number before modifying a working variable.
 - Using conditional statements to display the correct result.
 - Compiling C programs using GCC.
 - Finding errors and practising Git and GitHub workflows.
@@ -126,6 +137,12 @@ To run the palindrome number checker:
 
 ```powershell
 python Python/day09_palindrome_checker.py
+```
+
+To run the Armstrong number checker:
+
+```powershell
+python Python/day10_armstrong_number.py
 ```
 
 ### C
@@ -170,6 +187,13 @@ gcc C/day09_palindrome_checker.c -o palindrome_checker.exe
 .\palindrome_checker.exe
 ```
 
+To compile and run the Armstrong number checker:
+
+```powershell
+gcc C/day10_armstrong_number.c -o armstrong.exe
+.\armstrong.exe
+```
+
 You can use the same process for the other programs by changing the filenames.
 
 ## My Goal 🎯
@@ -178,6 +202,6 @@ I want to become a better programmer by coding consistently, understanding conce
 
 This repository is a record of what I'm learning throughout the challenge. I'll keep adding programs and updating my progress as I move through the remaining days.
 
-**Progress: 9 out of 30 days completed.** 📈
+**Progress: 10 out of 30 days completed (33.3%).** 📈
 
 **One day at a time. One program at a time.** 💻

@@ -59,7 +59,7 @@
 - Conditional statements in Python and C.
 - Basic testing and debugging.
 
-**Status:** Completed ✅
+**Status:** Completed by user confirmation. GitHub push status has not been independently verified.
 
 ---
 
@@ -85,7 +85,7 @@
 - Python: `Python/day04_multiplication_table.py`
 - C: `C/day04_multiplication_table.c`
 
-**Status:** Completed ✅
+**Status:** Completed by user confirmation. GitHub push status has not been independently verified.
 
 ---
 
@@ -240,6 +240,44 @@
 
 ---
 
+## Day 10 — Armstrong Number Checker
+
+**Date:** 21 October 2026
+
+### Completed
+- [x] Completed the Armstrong Number Checker challenge.
+- [x] Worked on the problem using Python and C.
+- [x] Learned the definition of an Armstrong number.
+- [x] Practised counting the digits in a number.
+- [x] Used the modulus operator (`% 10`) to extract digits.
+- [x] Used integer division to remove the last digit.
+- [x] Calculated powers of individual digits.
+- [x] Used a running total to calculate the sum of digit powers.
+- [x] Preserved the original number for comparison.
+- [x] Practised using a custom `power()` function in C.
+- [x] Handled zero and negative input cases.
+- [x] Compared the calculated sum with the original number.
+
+### What I Learned
+- The meaning of an Armstrong number.
+- How to determine the number of digits in an integer.
+- How to calculate the sum of each digit raised to the power of the total digit count.
+- How to use `len(str(num))` in Python to count digits.
+- How Python's `**` operator calculates powers.
+- Why `^` in C is not an exponentiation operator.
+- How to calculate powers using a loop and a custom function in C.
+- How to combine loops, arithmetic operators, and conditional statements.
+- Why the original number must be preserved before modifying the working number.
+- How to handle zero correctly when counting digits.
+
+### Files
+- Python: `Python/day10_armstrong_number.py`
+- C: `C/day10_armstrong_number.c`
+
+**Status:** Completed by user confirmation. Testing and GitHub push status have not been independently verified.
+
+---
+
 ## Project Overview
 
 **Project:** 30-Days-of-Coding
@@ -263,12 +301,13 @@ I want to improve my programming skills by practising every day, understanding c
 - Day 7: Prime Number Checker — Completed
 - Day 8: Reverse a Number — Completed
 - Day 9: Palindrome Number Checker — Completed
-- Days 10–30: Upcoming challenges
+- Day 10: Armstrong Number Checker — Completed
+- Days 11–30: Upcoming challenges
 
-**Progress: 9 out of 30 days completed.**
+**Progress: 10 out of 30 days completed (33.3%).**
 
 ### Next Goal
 
-Start **Day 10** with a new programming problem that builds on the concepts I have learned so far.
+Start **Day 11** with a new programming problem that builds on the concepts I have learned so far.
 
 I'll keep updating this file as I continue learning Python and C, one day at a time. 🚀
