@@ -35,7 +35,8 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day07_prime_checker.py
 │   ├── day08_reverse_number.py
 │   ├── day09_palindrome_checker.py
-│   └── day10_armstrong_number.py
+│   ├── day10_armstrong_number.py
+│   └── day11_gcd.py
 ├── C/
 │   ├── day01_profile.c
 │   ├── day02_calculator.c
@@ -46,7 +47,8 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day07_prime_checker.c
 │   ├── day08_reverse_number.c
 │   ├── day09_palindrome_checker.c
-│   └── day10_armstrong_number.c
+│   ├── day10_armstrong_number.c
+│   └── day11_gcd.c
 ├── README.md
 └── Progress.md
 ```
@@ -67,13 +69,14 @@ The `Python/` and `C/` folders contain my daily programs. I use `Progress.md` to
 | 8 | Reverse a Number | `while` loops, digit extraction, integer division | Completed |
 | 9 | Palindrome Number Checker | Reversing digits, loops, comparisons | Completed |
 | 10 | Armstrong Number Checker | Digit counting, powers, loops, functions | Completed |
-| 11–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
+| 11 | GCD of Two Numbers | Euclidean algorithm, modulus, `while` loop | Completed |
+| 12–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
 
-**Current progress: 10 out of 30 days completed (33.3%).**
+**Current progress: 11 out of 30 days completed (36.7%).**
 
 ## What I've Learned So Far
 
-During the first ten days, I practised:
+During the first eleven days, I practised:
 
 - Variables and data types.
 - Taking input and displaying output.
@@ -98,6 +101,11 @@ During the first ten days, I practised:
 - Writing a custom `power()` function in C using a loop.
 - Preserving the original number before modifying a working variable.
 - Using conditional statements to display the correct result.
+- Finding the greatest common divisor (GCD) of two numbers.
+- Applying the Euclidean algorithm: `gcd(a, b) = gcd(b, a % b)`.
+- Using the modulus operator to calculate remainders during the GCD calculation.
+- Using a `while` loop to repeat calculations until the remainder becomes zero.
+- Handling zero inputs and validating numeric input in C.
 - Compiling C programs using GCC.
 - Finding errors and practising Git and GitHub workflows.
 
@@ -143,6 +151,12 @@ To run the Armstrong number checker:
 
 ```powershell
 python Python/day10_armstrong_number.py
+```
+
+To run the GCD program:
+
+```powershell
+python Python/day11_gcd.py
 ```
 
 ### C
@@ -194,6 +208,13 @@ gcc C/day10_armstrong_number.c -o armstrong.exe
 .\armstrong.exe
 ```
 
+To compile and run the GCD program:
+
+```powershell
+gcc C/day11_gcd.c -o gcd.exe
+.\gcd.exe
+```
+
 You can use the same process for the other programs by changing the filenames.
 
 ## My Goal 🎯
@@ -202,6 +223,6 @@ I want to become a better programmer by coding consistently, understanding conce
 
 This repository is a record of what I'm learning throughout the challenge. I'll keep adding programs and updating my progress as I move through the remaining days.
 
-**Progress: 10 out of 30 days completed (33.3%).** 📈
+**Progress: 11 out of 30 days completed (36.7%).** 📈
 
 **One day at a time. One program at a time.** 💻

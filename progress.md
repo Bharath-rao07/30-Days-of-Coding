@@ -278,6 +278,37 @@
 
 ---
 
+## Day 11 — GCD of Two Numbers
+
+**Date:** 22 October 2026
+
+### Completed
+- [x] Completed the GCD of Two Numbers challenge.
+- [x] Worked on the problem using Python and C.
+- [x] Practised finding the greatest common divisor of two non-negative integers.
+- [x] Used the Euclidean algorithm to find the GCD.
+- [x] Used the modulus operator (`%`) to calculate remainders.
+- [x] Used a `while` loop to repeat the algorithm until the remainder became zero.
+- [x] Handled zero inputs and rejected negative inputs.
+- [x] Checked for invalid numeric input in the C program.
+
+### What I Learned
+- The meaning of the greatest common divisor (GCD).
+- How the Euclidean algorithm uses `gcd(a, b) = gcd(b, a % b)`.
+- How to update variables during each loop iteration.
+- Why the final value of `a` is the GCD when `b` becomes zero.
+- How to handle cases where one number is zero.
+- Why the GCD of two zeros is undefined.
+- How to validate input using `scanf()` in C.
+
+### Files
+- Python: `Python/day11_gcd.py`
+- C: `C/day11_gcd.c`
+
+**Status:** Completed by user confirmation. Testing details and GitHub push status have not been independently verified.
+
+---
+
 ## Project Overview
 
 **Project:** 30-Days-of-Coding
@@ -302,12 +333,13 @@ I want to improve my programming skills by practising every day, understanding c
 - Day 8: Reverse a Number — Completed
 - Day 9: Palindrome Number Checker — Completed
 - Day 10: Armstrong Number Checker — Completed
-- Days 11–30: Upcoming challenges
+- Day 11: GCD of Two Numbers — Completed
+- Days 12–30: Upcoming challenges
 
-**Progress: 10 out of 30 days completed (33.3%).**
+**Progress: 11 out of 30 days completed (36.7%).**
 
 ### Next Goal
 
-Start **Day 11** with a new programming problem that builds on the concepts I have learned so far.
+Start **Day 12** with a new programming problem that builds on the concepts I have learned so far.
 
 I'll keep updating this file as I continue learning Python and C, one day at a time. 🚀
