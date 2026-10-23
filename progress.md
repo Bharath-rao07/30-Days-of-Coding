@@ -12,12 +12,11 @@
 - [x] Pushed changes to GitHub.
 
 ### What I Learned
-- How to accept user input.
-- How to store information in variables.
-- How to display a formatted profile.
+- Accepting user input and storing information in variables.
+- Displaying a formatted profile.
 - Basic differences between Python and C.
 
-**Status:** Completed ✅
+**Status:** Completed.
 
 ---
 
@@ -29,17 +28,17 @@
 - [x] Created the Python calculator.
 - [x] Created the C calculator.
 - [x] Practised arithmetic operations.
-- [x] Learned how to handle division by zero.
+- [x] Learned to handle division by zero.
 - [x] Tested the calculator programs.
 - [x] Pushed changes to GitHub.
 
 ### What I Learned
 - Arithmetic operators (`+`, `-`, `*`, `/`).
 - Taking numeric input in Python and C.
-- Using conditional statements.
+- Conditional statements.
 - Handling invalid operators and division by zero.
 
-**Status:** Completed ✅
+**Status:** Completed.
 
 ---
 
@@ -50,7 +49,7 @@
 ### Completed
 - [x] Completed the Number Analysis task.
 - [x] Practised checking even and odd numbers.
-- [x] Practised checking positive, negative, and zero.
+- [x] Checked positive, negative, and zero values.
 - [x] Used conditional statements and comparison operators.
 
 ### What I Learned
@@ -70,8 +69,8 @@
 ### Completed
 - [x] Created the Python program.
 - [x] Created the C program.
-- [x] Practised generating a multiplication table using loops.
-- [x] Worked with loop initialization, conditions, and increments.
+- [x] Generated multiplication tables using loops.
+- [x] Practised loop initialization, conditions, and increments.
 - [x] Completed Day 4.
 
 ### What I Learned
@@ -96,15 +95,14 @@
 ### Completed
 - [x] Created the Python program.
 - [x] Created the C program.
-- [x] Learned how accumulator variables work.
 - [x] Calculated the sum of natural numbers using loops.
+- [x] Practised accumulator variables and running totals.
 - [x] Practised input validation.
-- [x] Worked on the mini-challenge of summing even numbers.
+- [x] Worked on the sum of even numbers mini-challenge.
 - [x] Updated the progress file.
 
 ### What I Learned
-- Accumulator variables.
-- Running totals.
+- Accumulator variables and running totals.
 - Loop-based calculations.
 - Using `for` loops in Python and C.
 - Checking user input with conditions.
@@ -124,9 +122,8 @@
 
 ### Completed
 - [x] Worked on the factorial problem.
-- [x] Learned how factorials are calculated using multiplication.
-- [x] Used a loop to calculate the factorial.
-- [x] Practised using an accumulator variable.
+- [x] Calculated factorial using multiplication and loops.
+- [x] Practised accumulator variables.
 - [x] Learned why the factorial of zero is one.
 - [x] Added input validation for negative numbers.
 - [x] Learned about integer limits in C.
@@ -135,7 +132,7 @@
 - The meaning of factorial (`!`).
 - Multiplying numbers using a loop.
 - Updating a running product.
-- Initializing a variable to `1` for multiplication.
+- Initializing a multiplication accumulator to `1`.
 - Handling zero and negative inputs.
 - Using `unsigned long long` in C for larger non-negative integer results.
 
@@ -153,21 +150,19 @@
 
 ### Completed
 - [x] Completed the Prime Number Checker challenge.
-- [x] Practised checking whether a number is prime or not.
+- [x] Checked whether a number is prime.
 - [x] Used the modulus operator to check divisibility.
-- [x] Practised using Boolean variables.
-- [x] Used `for` loops to check possible divisors.
+- [x] Practised Boolean variables and loops.
 - [x] Learned how the `break` statement stops a loop.
 - [x] Handled numbers less than 2.
 
 ### What I Learned
-- The definition of prime numbers.
-- The difference between prime and composite numbers.
-- Checking divisibility using the modulus operator (`%`).
-- Using Boolean values (`True` and `False` in Python).
+- The definition of prime and composite numbers.
+- Checking divisibility using `%`.
+- Using `True` and `False` in Python.
 - Representing true and false using `1` and `0` in C.
 - Combining loops and conditional statements.
-- Using `break` to stop a loop when a divisor is found.
+- Using `break` when a divisor is found.
 - Handling zero, one, and negative numbers.
 
 ### Files
@@ -184,20 +179,20 @@
 
 ### Completed
 - [x] Worked on the Reverse a Number problem.
-- [x] Practised reversing a number using loops.
-- [x] Used the modulus operator to extract the last digit.
+- [x] Reversed digits using loops.
+- [x] Used `% 10` to extract the last digit.
 - [x] Used integer division to remove the last digit.
-- [x] Used an accumulator-style variable to build the reversed number.
+- [x] Built the reversed number using an accumulator.
 - [x] Handled zero and negative input cases.
 
 ### What I Learned
-- How to extract the last digit using `% 10`.
-- How integer division (`//` in Python and integer division in C) removes the last digit.
-- How to build a reversed number using `reverse = reverse * 10 + digit`.
-- How a `while` loop repeats until a condition becomes false.
-- Why the original number should be stored before changing it.
-- Why reversing `1200` gives `21` when the result is stored as an integer.
-- How to handle zero and reject negative inputs.
+- Extracting digits using `% 10`.
+- Removing digits using `//` in Python and integer division in C.
+- Building a reversed number using `reverse = reverse * 10 + digit`.
+- Using a `while` loop.
+- Preserving the original number before modifying it.
+- Why reversing `1200` gives `21` when stored as an integer.
+- Handling zero and rejecting negative inputs.
 
 ### Files
 - Python: `Python/day08_reverse_number.py`
@@ -213,24 +208,22 @@
 
 ### Completed
 - [x] Completed the Palindrome Number Checker challenge.
-- [x] Practised checking whether a number reads the same forward and backward.
-- [x] Used a loop to reverse the digits of a number.
-- [x] Used the modulus operator (`% 10`) to extract digits.
+- [x] Reversed the digits of a number.
+- [x] Used `% 10` to extract digits.
 - [x] Used integer division to remove digits.
-- [x] Stored the original number before reversing it.
+- [x] Preserved the original number for comparison.
 - [x] Compared the reversed number with the original number.
-- [x] Handled negative inputs by asking for a non-negative number.
-- [x] Corrected logical errors and output messages in the C program.
+- [x] Handled negative inputs.
+- [x] Corrected logical errors and output messages in C.
 
 ### What I Learned
 - The meaning of a palindrome number.
-- How to check whether a number is a palindrome.
-- How to combine loops, arithmetic operators, and conditional statements.
-- Why the original number must be preserved for comparison.
-- Why the comparison must be `rev == original` after the loop.
-- How to identify and correct logical errors in C.
-- Why clear and accurate output messages matter.
-- How zero can be treated as a palindrome number.
+- Checking whether a number reads the same forward and backward.
+- Combining loops, arithmetic operators, and conditions.
+- Why the original number must be preserved.
+- Why the comparison must use `rev == original` after the loop.
+- Identifying and correcting logical errors in C.
+- Treating zero as a palindrome number.
 
 ### Files
 - Python: `Python/day09_palindrome_checker.py`
@@ -247,28 +240,23 @@
 ### Completed
 - [x] Completed the Armstrong Number Checker challenge.
 - [x] Worked on the problem using Python and C.
-- [x] Learned the definition of an Armstrong number.
-- [x] Practised counting the digits in a number.
-- [x] Used the modulus operator (`% 10`) to extract digits.
-- [x] Used integer division to remove the last digit.
+- [x] Counted the digits in a number.
+- [x] Extracted digits using `% 10`.
+- [x] Removed digits using integer division.
 - [x] Calculated powers of individual digits.
 - [x] Used a running total to calculate the sum of digit powers.
 - [x] Preserved the original number for comparison.
 - [x] Practised using a custom `power()` function in C.
-- [x] Handled zero and negative input cases.
-- [x] Compared the calculated sum with the original number.
+- [x] Handled zero and negative inputs.
 
 ### What I Learned
-- The meaning of an Armstrong number.
-- How to determine the number of digits in an integer.
-- How to calculate the sum of each digit raised to the power of the total digit count.
-- How to use `len(str(num))` in Python to count digits.
-- How Python's `**` operator calculates powers.
+- The definition of an Armstrong number.
+- Counting digits using `len(str(num))` in Python.
+- Using Python's `**` operator to calculate powers.
 - Why `^` in C is not an exponentiation operator.
-- How to calculate powers using a loop and a custom function in C.
-- How to combine loops, arithmetic operators, and conditional statements.
-- Why the original number must be preserved before modifying the working number.
-- How to handle zero correctly when counting digits.
+- Calculating powers using a loop and custom function in C.
+- Combining loops, arithmetic operators, and conditions.
+- Preserving the original number before modifying it.
 
 ### Files
 - Python: `Python/day10_armstrong_number.py`
@@ -287,25 +275,59 @@
 - [x] Worked on the problem using Python and C.
 - [x] Practised finding the greatest common divisor of two non-negative integers.
 - [x] Used the Euclidean algorithm to find the GCD.
-- [x] Used the modulus operator (`%`) to calculate remainders.
-- [x] Used a `while` loop to repeat the algorithm until the remainder became zero.
+- [x] Used the modulus operator to calculate remainders.
+- [x] Used a `while` loop until the remainder became zero.
 - [x] Handled zero inputs and rejected negative inputs.
 - [x] Checked for invalid numeric input in the C program.
 
 ### What I Learned
 - The meaning of the greatest common divisor (GCD).
-- How the Euclidean algorithm uses `gcd(a, b) = gcd(b, a % b)`.
-- How to update variables during each loop iteration.
+- The Euclidean algorithm: `gcd(a, b) = gcd(b, a % b)`.
+- Updating variables during each loop iteration.
 - Why the final value of `a` is the GCD when `b` becomes zero.
-- How to handle cases where one number is zero.
+- Handling cases where one number is zero.
 - Why the GCD of two zeros is undefined.
-- How to validate input using `scanf()` in C.
+- Validating input using `scanf()` in C.
 
 ### Files
 - Python: `Python/day11_gcd.py`
 - C: `C/day11_gcd.c`
 
 **Status:** Completed by user confirmation. Testing details and GitHub push status have not been independently verified.
+
+---
+
+## Day 12 — LCM of Two Numbers
+
+**Date:** 23 October 2026
+
+### Completed
+- [x] Completed the LCM of Two Numbers challenge.
+- [x] Worked on the problem using Python and C.
+- [x] Learned the meaning of the least common multiple (LCM).
+- [x] Used the GCD to calculate the LCM.
+- [x] Practised the Euclidean algorithm again.
+- [x] Used a function to calculate the GCD.
+- [x] Used integer division and multiplication to calculate the LCM.
+- [x] Handled zero inputs.
+- [x] Added validation to reject negative inputs.
+
+### What I Learned
+- The meaning of the least common multiple (LCM).
+- Finding the smallest positive number divisible by both input numbers.
+- The relationship between GCD and LCM.
+- The formula: `LCM(a, b) = |a * b| / GCD(a, b)`.
+- Reusing a GCD function inside another calculation.
+- Using `//` for integer division in Python.
+- Using integer division and `long long` in C.
+- Why zero inputs must be handled before applying the formula.
+- How to check whether two positive numbers are co-prime using their GCD.
+
+### Files
+- Python: `Python/day12_lcm.py`
+- C: `C/day12_lcm.c`
+
+**Status:** Completed by user confirmation. Testing details, mini-challenge status, and GitHub push status have not been independently verified.
 
 ---
 
@@ -319,7 +341,7 @@
 
 ### My Goal
 
-I want to improve my programming skills by practising every day, understanding concepts, solving problems, and learning from mistakes.
+I want to improve my programming skills by practising every day, understanding concepts, solving problems, and learning from mistakes. This challenge helps me strengthen my coding fundamentals, logical thinking, problem-solving, and debugging skills while building my GitHub portfolio.
 
 ### Overall Progress
 
@@ -334,12 +356,13 @@ I want to improve my programming skills by practising every day, understanding c
 - Day 9: Palindrome Number Checker — Completed
 - Day 10: Armstrong Number Checker — Completed
 - Day 11: GCD of Two Numbers — Completed
-- Days 12–30: Upcoming challenges
+- Day 12: LCM of Two Numbers — Completed
+- Days 13–30: Upcoming challenges
 
-**Progress: 11 out of 30 days completed (36.7%).**
+**Progress: 12 out of 30 days completed (40%).**
 
 ### Next Goal
 
-Start **Day 12** with a new programming problem that builds on the concepts I have learned so far.
+Start **Day 13** with a new programming problem that builds on the concepts I have learned so far.
 
 I'll keep updating this file as I continue learning Python and C, one day at a time. 🚀

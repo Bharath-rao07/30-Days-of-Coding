@@ -36,7 +36,8 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day08_reverse_number.py
 │   ├── day09_palindrome_checker.py
 │   ├── day10_armstrong_number.py
-│   └── day11_gcd.py
+│   ├── day11_gcd.py
+│   └── day12_lcm.py
 ├── C/
 │   ├── day01_profile.c
 │   ├── day02_calculator.c
@@ -48,7 +49,8 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day08_reverse_number.c
 │   ├── day09_palindrome_checker.c
 │   ├── day10_armstrong_number.c
-│   └── day11_gcd.c
+│   ├── day11_gcd.c
+│   └── day12_lcm.c
 ├── README.md
 └── Progress.md
 ```
@@ -70,13 +72,14 @@ The `Python/` and `C/` folders contain my daily programs. I use `Progress.md` to
 | 9 | Palindrome Number Checker | Reversing digits, loops, comparisons | Completed |
 | 10 | Armstrong Number Checker | Digit counting, powers, loops, functions | Completed |
 | 11 | GCD of Two Numbers | Euclidean algorithm, modulus, `while` loop | Completed |
-| 12–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
+| 12 | LCM of Two Numbers | GCD, Euclidean algorithm, functions, integer division | Completed |
+| 13–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
 
-**Current progress: 11 out of 30 days completed (36.7%).**
+**Current progress: 12 out of 30 days completed (40%).**
 
 ## What I've Learned So Far
 
-During the first eleven days, I practised:
+During the first twelve days, I practised:
 
 - Variables and data types.
 - Taking input and displaying output.
@@ -105,6 +108,10 @@ During the first eleven days, I practised:
 - Applying the Euclidean algorithm: `gcd(a, b) = gcd(b, a % b)`.
 - Using the modulus operator to calculate remainders during the GCD calculation.
 - Using a `while` loop to repeat calculations until the remainder becomes zero.
+- Understanding the least common multiple (LCM) of two numbers.
+- Applying the formula `LCM(a, b) = |a * b| / GCD(a, b)`.
+- Reusing a GCD function to calculate the LCM.
+- Using integer division in Python and C.
 - Handling zero inputs and validating numeric input in C.
 - Compiling C programs using GCC.
 - Finding errors and practising Git and GitHub workflows.
@@ -157,6 +164,12 @@ To run the GCD program:
 
 ```powershell
 python Python/day11_gcd.py
+```
+
+To run the LCM program:
+
+```powershell
+python Python/day12_lcm.py
 ```
 
 ### C
@@ -215,6 +228,13 @@ gcc C/day11_gcd.c -o gcd.exe
 .\gcd.exe
 ```
 
+To compile and run the LCM program:
+
+```powershell
+gcc C/day12_lcm.c -o lcm.exe
+.\lcm.exe
+```
+
 You can use the same process for the other programs by changing the filenames.
 
 ## My Goal 🎯
@@ -223,6 +243,6 @@ I want to become a better programmer by coding consistently, understanding conce
 
 This repository is a record of what I'm learning throughout the challenge. I'll keep adding programs and updating my progress as I move through the remaining days.
 
-**Progress: 11 out of 30 days completed (36.7%).** 📈
+**Progress: 12 out of 30 days completed (40%).** 📈
 
 **One day at a time. One program at a time.** 💻
