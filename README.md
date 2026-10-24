@@ -1,10 +1,10 @@
-# 30 Days of Coding 🚀
+**# 30 Days of Coding 🚀**
 
 Hi! This is my **30 Days of Coding** challenge, where I'm practising Python and C to improve my programming skills.
 
 I'm learning programming as part of my engineering journey. I know some basics, and I'm using this challenge to improve my coding, logical thinking, and problem-solving skills through regular practice.
 
-## What I Want to Achieve
+**## What I Want to Achieve**
 
 - Practise coding regularly.
 - Improve my logical thinking.
@@ -13,7 +13,7 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 - Get more comfortable using Git and GitHub.
 - Build small projects that I can add to my portfolio.
 
-## Tools I'm Using
+**## Tools I'm Using**
 
 - Python
 - C
@@ -21,7 +21,7 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 - GCC compiler
 - Git and GitHub
 
-## Project Structure
+**## Project Structure**
 
 ```text
 30-Days-of-Coding/
@@ -37,7 +37,8 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day09_palindrome_checker.py
 │   ├── day10_armstrong_number.py
 │   ├── day11_gcd.py
-│   └── day12_lcm.py
+│   ├── day12_lcm.py
+│   └── day13_sum_of_digits.py
 ├── C/
 │   ├── day01_profile.c
 │   ├── day02_calculator.c
@@ -50,14 +51,15 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day09_palindrome_checker.c
 │   ├── day10_armstrong_number.c
 │   ├── day11_gcd.c
-│   └── day12_lcm.c
+│   ├── day12_lcm.c
+│   └── day13_sum_of_digits.c
 ├── README.md
 └── Progress.md
 ```
 
 The `Python/` and `C/` folders contain my daily programs. I use `Progress.md` to track the tasks I've completed and the concepts I'm learning.
 
-## My Progress 📈
+**## My Progress 📈**
 
 | Day | Program | Main Concepts | Status |
 |---|---|---|---|
@@ -73,13 +75,14 @@ The `Python/` and `C/` folders contain my daily programs. I use `Progress.md` to
 | 10 | Armstrong Number Checker | Digit counting, powers, loops, functions | Completed |
 | 11 | GCD of Two Numbers | Euclidean algorithm, modulus, `while` loop | Completed |
 | 12 | LCM of Two Numbers | GCD, Euclidean algorithm, functions, integer division | Completed |
-| 13–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
+| 13 | Sum of Digits | `while` loops, modulus, integer division, accumulator variables | Completed |
+| 14–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
 
-**Current progress: 12 out of 30 days completed (40%).**
+**Current progress: 13 out of 30 days completed (43.3%).**
 
-## What I've Learned So Far
+**## What I've Learned So Far**
 
-During the first twelve days, I practised:
+During the first thirteen days, I practised:
 
 - Variables and data types.
 - Taking input and displaying output.
@@ -112,17 +115,22 @@ During the first twelve days, I practised:
 - Applying the formula `LCM(a, b) = |a * b| / GCD(a, b)`.
 - Reusing a GCD function to calculate the LCM.
 - Using integer division in Python and C.
+- Extracting the last digit using `% 10` to calculate the sum of digits.
+- Removing digits one by one using `// 10` in Python and integer division in C.
+- Using a `while` loop to process each digit of a number.
+- Using an accumulator variable to calculate the sum of digits.
+- Handling zero and negative numbers when processing digits.
 - Handling zero inputs and validating numeric input in C.
 - Compiling C programs using GCC.
 - Finding errors and practising Git and GitHub workflows.
 
 I'm still learning, so there is plenty more for me to explore. I want to understand how my programs work instead of just memorising the code.
 
-## Running the Programs
+**## Running the Programs**
 
 Open the terminal in the project folder before running these commands.
 
-### Python
+**### Python**
 
 To run the profile generator:
 
@@ -172,7 +180,13 @@ To run the LCM program:
 python Python/day12_lcm.py
 ```
 
-### C
+To run the sum of digits program:
+
+```powershell
+python Python/day13_sum_of_digits.py
+```
+
+**### C**
 
 Compile the profile generator:
 
@@ -235,14 +249,21 @@ gcc C/day12_lcm.c -o lcm.exe
 .\lcm.exe
 ```
 
+To compile and run the sum of digits program:
+
+```powershell
+gcc C/day13_sum_of_digits.c -o sum_of_digits.exe
+.\sum_of_digits.exe
+```
+
 You can use the same process for the other programs by changing the filenames.
 
-## My Goal 🎯
+**## My Goal 🎯**
 
 I want to become a better programmer by coding consistently, understanding concepts, solving problems, and learning from my mistakes.
 
 This repository is a record of what I'm learning throughout the challenge. I'll keep adding programs and updating my progress as I move through the remaining days.
 
-**Progress: 12 out of 30 days completed (40%).** 📈
+**Progress: 13 out of 30 days completed (43.3%).** 📈
 
 **One day at a time. One program at a time.** 💻
