@@ -1462,276 +1462,148 @@
 
 
 
-**\*\*## Day 14 — Count Digits\*\***
-
-
-
-
-
-
+**\*\*\#\# Day 14 — Count Digits\*\***
 
 **\*\*\\\*\\\*Date:\\\*\\\*\*\*** 25 October 2026
 
-
-
-
-
-
-
-**\*\*### Completed\*\***
-
-
-
-
-
-
+**\*\*\#\#\# Completed\*\***
 
 \\- [x] Completed the Count Digits challenge.
 
-
-
 \\- [x] Worked on the problem using Python and C.
-
-
 
 \\- [x] Used a counter variable to count the digits in a number.
 
-
-
-\\- [x] Used a \`while\` loop to process digits.
-
-
+\\- [x] Used a `while` loop to process digits.
 
 \\- [x] Used integer division to remove the last digit.
 
-
-
 \\- [x] Handled zero as a one-digit number.
-
-
 
 \\- [x] Handled negative numbers without counting the negative sign.
 
-
-
-
-
-
-
-**\*\*### What I Learned\*\***
-
-
-
-
-
-
+**\*\*\#\#\# What I Learned\*\***
 
 \\- Counting digits using a counter variable.
 
-
-
-\\- Using a \`while\` loop to process a number digit by digit.
-
-
+\\- Using a `while` loop to process a number digit by digit.
 
 \\- Using integer division to remove the last digit.
 
-
-
 \\- Why zero must be handled separately when counting digits.
-
-
 
 \\- Handling negative numbers when counting digits.
 
-
-
 \\- Understanding how the counter changes during each loop iteration.
 
+**\*\*\#\#\# Files\*\***
 
+\\- Python: `Python/day14_count_digits.py`
 
-
-
-
-
-**\*\*### Files\*\***
-
-
-
-
-
-
-
-\\- Python: \`Python/day14_count_digits.py\`
-
-
-
-\\- C: \`C/day14_count_digits.c\`
-
-
-
-
-
-
+\\- C: `C/day14_count_digits.c`
 
 **\*\*\\\*\\\*Status:\\\*\\\*\*\*** Completed by user confirmation. Testing details, mini-challenge, and GitHub push status have not been independently verified.
 
+**\*\*\-\-\-\*\***
 
+**\*\*\#\# Day 15 — Largest and Smallest of N Numbers\*\***
 
+**\*\*\\\*\\\*Date:\\\*\\\*\*\*** 26 October 2026
 
+**\*\*\#\#\# Completed\*\***
 
+\\- [x] Completed the Largest and Smallest of N Numbers challenge.
 
+\\- [x] Worked on the problem using Python and C.
 
-**\*\*---\*\***
+\\- [x] Practised finding the largest number in a collection of numbers.
 
+\\- [x] Practised finding the smallest number in a collection of numbers.
 
+\\- [x] Used lists in Python and arrays in C.
 
+\\- [x] Used loops to process multiple numbers.
 
+\\- [x] Used comparison operators to update the largest and smallest values.
 
+\\- [x] Practised handling positive, negative, and zero values.
 
+**\*\*\#\#\# What I Learned\*\***
 
-**\*\*## Project Overview\*\***
+\\- Finding the largest and smallest values among multiple numbers.
 
+\\- Storing multiple numbers in a Python list and a C array.
 
+\\- Using loops to process a collection of numbers.
 
+\\- Comparing values using conditional statements.
 
+\\- Initializing the largest and smallest values using the first input number.
 
+\\- Why initializing with the first number works better than assuming all inputs are positive.
 
+\\- Understanding how the largest and smallest values change during each iteration.
+
+**\*\*\#\#\# Files\*\***
+
+\\- Python: `Python/day15_largest_smallest.py`
+
+\\- C: `C/day15_largest_smallest.c`
+
+**\*\*\\\*\\\*Status:\\\*\\\*\*\*** Completed by user confirmation. Testing details, mini-challenge, and GitHub push status have not been independently verified.
+
+**\*\*\-\-\-\*\***
+
+**\*\*\#\# Project Overview\*\***
 
 **\*\*\\\*\\\*Project:\\\*\\\*\*\*** 30-Days-of-Coding
 
-
-
-
-
-
-
 **\*\*\\\*\\\*Languages:\\\*\\\*\*\*** Python and C
-
-
-
-
-
-
 
 **\*\*\\\*\\\*Tools:\\\*\\\*\*\*** Visual Studio Code, GCC, Git, and GitHub
 
-
-
-
-
-
-
-**\*\*### My Goal\*\***
-
-
-
-
-
-
+**\*\*\#\#\# My Goal\*\***
 
 I want to improve my programming skills by practising every day, understanding concepts, solving problems, and learning from mistakes. This challenge helps me strengthen my coding fundamentals, logical thinking, problem-solving, and debugging skills while building my GitHub portfolio.
 
-
-
-
-
-
-
-**\*\*### Overall Progress\*\***
-
-
-
-
-
-
+**\*\*\#\#\# Overall Progress\*\***
 
 \\- Day 1: Personal Profile Generator — Completed
 
-
-
 \\- Day 2: Simple Calculator — Completed
-
-
 
 \\- Day 3: Number Analysis — Completed
 
-
-
 \\- Day 4: Multiplication Table Generator — Completed
-
-
 
 \\- Day 5: Sum of Natural Numbers — Completed
 
-
-
 \\- Day 6: Factorial of a Number — Completed
-
-
 
 \\- Day 7: Prime Number Checker — Completed
 
-
-
 \\- Day 8: Reverse a Number — Completed
-
-
 
 \\- Day 9: Palindrome Number Checker — Completed
 
-
-
 \\- Day 10: Armstrong Number Checker — Completed
-
-
 
 \\- Day 11: GCD of Two Numbers — Completed
 
-
-
 \\- Day 12: LCM of Two Numbers — Completed
-
-
 
 \\- Day 13: Sum of Digits — Completed
 
-
-
 \\- Day 14: Count Digits — Completed
 
+\\- Day 15: Largest and Smallest of N Numbers — Completed
 
+\\- Days 16–30: Upcoming challenges
 
-\\- Days 15–30: Upcoming challenges
+**\*\*\\\*\\\*Progress: 15 out of 30 days completed (50%).\\\*\\\*\*\***
 
+**\*\*\#\#\# Next Goal\*\***
 
-
-
-
-
-
-**\*\*\\\*\\\*Progress: 14 out of 30 days completed (46.7%).\\\*\\\*\*\***
-
-
-
-
-
-
-
-**\*\*### Next Goal\*\***
-
-
-
-
-
-
-
-Start **\*\*\\\*\\\*Day 15 — Largest and Smallest of N Numbers\\\*\\\*\*\*** with a new programming problem that builds on the concepts I have learned so far.
-
-
-
-
-
-
+Start **\*\*\\\*\\\*Day 16 — Star and Number Patterns\\\*\\\*\*\*** with a new programming problem that builds on the concepts I have learned so far.
 
 I'll keep updating this file as I continue learning Python and C, one day at a time. 🚀
