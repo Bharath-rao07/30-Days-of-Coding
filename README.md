@@ -40,7 +40,8 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day12_lcm.py
 │   ├── day13_sum_of_digits.py
 │   ├── day14_count_digits.py
-│   └── day15_largest_smallest.py
+│   ├── day15_largest_smallest.py
+│   └── day16_star_number_patterns.py
 ├── C/
 │   ├── day01_profile.c
 │   ├── day02_calculator.c
@@ -56,7 +57,8 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day12_lcm.c
 │   ├── day13_sum_of_digits.c
 │   ├── day14_count_digits.c
-│   └── day15_largest_smallest.c
+│   ├── day15_largest_smallest.c
+│   └── day16_star_number_patterns.c
 ├── README.md
 └── Progress.md
 ```
@@ -82,13 +84,14 @@ The `Python/` and `C/` folders contain my daily programs. I use `Progress.md` to
 | 13 | Sum of Digits | `while` loops, modulus, integer division, accumulator variables | Completed |
 | 14 | Count Digits | Counter variables, `while` loops, integer division | Completed |
 | 15 | Largest and Smallest of N Numbers | Lists, arrays, loops, comparisons | Completed |
-| 16–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
+| 16 | Star and Number Patterns | Nested loops, rows, columns, pattern printing | Completed |
+| 17–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
 
-**Current progress: 15 out of 30 days completed (50%).**
+**Current progress: 16 out of 30 days completed (53.3%).**
 
 ## What I've Learned So Far
 
-During the first fifteen days, I practised:
+During the first sixteen days, I practised:
 
 - Variables and data types.
 - Taking input and displaying output.
@@ -114,21 +117,21 @@ During the first fifteen days, I practised:
 - Preserving the original number before modifying a working variable.
 - Finding the greatest common divisor (GCD) of two numbers.
 - Applying the Euclidean algorithm: `gcd(a, b) = gcd(b, a % b)`.
-- Using the modulus operator to calculate remainders during the GCD calculation.
 - Understanding the least common multiple (LCM) of two numbers.
 - Applying the formula `LCM(a, b) = |a * b| / GCD(a, b)`.
 - Reusing a GCD function to calculate the LCM.
 - Extracting digits to calculate the sum of digits.
-- Using a `while` loop to process each digit of a number.
 - Using a counter variable to count digits.
 - Understanding why zero must be treated as a one-digit number.
 - Handling negative numbers without counting the negative sign as a digit.
-- Understanding how a counter changes during each loop iteration.
 - Storing multiple numbers in a Python list and a C array.
 - Finding the largest and smallest values among multiple numbers.
-- Using loops and comparison operators to process a collection of numbers.
 - Initializing the largest and smallest values using the first input number.
-- Understanding how the largest and smallest values change during each iteration.
+- Understanding nested loops and how one loop works inside another.
+- Using an outer loop to control rows and an inner loop to control items in each row.
+- Printing star triangles, number triangles, and repeated-number patterns.
+- Using `end=" "` in Python to print multiple items on the same line.
+- Moving to a new line using `print()` in Python and `printf("\n")` in C.
 - Compiling C programs using GCC.
 - Finding errors and practising Git and GitHub workflows.
 
@@ -206,9 +209,15 @@ To run the largest and smallest numbers program:
 python Python/day15_largest_smallest.py
 ```
 
+To run the star and number patterns program:
+
+```powershell
+python Python/day16_star_number_patterns.py
+```
+
 ### C
 
-Compile the profile generator:
+Compile and run the profile generator:
 
 ```powershell
 gcc C/day01_profile.c -o profile.exe
@@ -285,6 +294,13 @@ gcc C/day15_largest_smallest.c -o largest_smallest.exe
 .\largest_smallest.exe
 ```
 
+Compile and run the star and number patterns program:
+
+```powershell
+gcc C/day16_star_number_patterns.c -o day16_patterns.exe
+.\day16_patterns.exe
+```
+
 You can use the same process for the other programs by changing the filenames.
 
 ## My Goal 🎯
@@ -293,6 +309,6 @@ I want to become a better programmer by coding consistently, understanding conce
 
 This repository is a record of what I'm learning throughout the challenge. I'll keep adding programs and updating my progress as I move through the remaining days.
 
-**Progress: 15 out of 30 days completed (50%).** 📈
+**Progress: 16 out of 30 days completed (53.3%).** 📈
 
 **One day at a time. One program at a time.** 💻

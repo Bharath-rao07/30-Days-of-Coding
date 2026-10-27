@@ -1606,4 +1606,121 @@ I want to improve my programming skills by practising every day, understanding c
 
 Start **\*\*\\\*\\\*Day 16 — Star and Number Patterns\\\*\\\*\*\*** with a new programming problem that builds on the concepts I have learned so far.
 
+
+**\*\*## Day 16 — Star and Number Patterns\*\***
+
+**\*\*\\\*\\\*Date:\\\*\\\*\*\*** 27 October 2026
+
+**\*\*### Completed\*\***
+
+\\- [x] Completed the Star and Number Patterns challenge.
+
+\\- [x] Worked on the problem using Python and C.
+
+\\- [x] Practised using nested loops to generate patterns.
+
+\\- [x] Created a right-angled star triangle.
+
+\\- [x] Created a number triangle.
+
+\\- [x] Created a repeated-number triangle.
+
+\\- [x] Used an outer loop to control rows.
+
+\\- [x] Used an inner loop to control the number of items printed in each row.
+
+\\- [x] Practised printing multiple items on the same line.
+
+\\- [x] Used a newline to move to the next row.
+
+\\- [x] Practised handling positive and non-positive row counts.
+
+**\*\*### What I Learned\*\***
+
+\\- Understanding nested loops and how one loop works inside another loop.
+
+\\- Using the outer loop to control the number of rows.
+
+\\- Using the inner loop to control the number of stars or numbers printed in each row.
+
+\\- Generating a right-angled triangle using stars.
+
+\\- Printing increasing number sequences in a triangle pattern.
+
+\\- Printing the same row number multiple times.
+
+\\- Understanding how loop variables change during each iteration.
+
+\\- Using \`end=" "\` in Python to print multiple items on the same line.
+
+\\- Using \`print()\` in Python and \`printf("\\n")\` in C to move to the next line.
+
+\\- Understanding the difference between printing on the same line and starting a new line.
+
+\\- Using nested loops to solve pattern-based programming problems.
+
+**\*\*### Files\*\***
+
+\\- Python: \`Python/day16_star_number_patterns.py\`
+
+\\- C: \`C/day16_star_number_patterns.c\`
+
+**\*\*\\\*\\\*Status:\\\*\\\*\*\*** Completed by user confirmation. Testing details, mini-challenge, and GitHub push status have not been independently verified.
+
+**\*\*---\*\***
+
+**\*\*## Project Overview\*\***
+
+**\*\*\\\*\\\*Project:\\\*\\\*\*\*** 30-Days-of-Coding
+
+**\*\*\\\*\\\*Languages:\\\*\\\*\*\*** Python and C
+
+**\*\*\\\*\\\*Tools:\\\*\\\*\*\*** Visual Studio Code, GCC, Git, and GitHub
+
+**\*\*### My Goal\*\***
+
+I want to improve my programming skills by practising every day, understanding concepts, solving problems, and learning from mistakes. This challenge helps me strengthen my coding fundamentals, logical thinking, problem-solving, and debugging skills while building my GitHub portfolio.
+
+**\*\*### Overall Progress\*\***
+
+\\- Day 1: Personal Profile Generator — Completed
+
+\\- Day 2: Simple Calculator — Completed
+
+\\- Day 3: Number Analysis — Completed
+
+\\- Day 4: Multiplication Table Generator — Completed
+
+\\- Day 5: Sum of Natural Numbers — Completed
+
+\\- Day 6: Factorial of a Number — Completed
+
+\\- Day 7: Prime Number Checker — Completed
+
+\\- Day 8: Reverse a Number — Completed
+
+\\- Day 9: Palindrome Number Checker — Completed
+
+\\- Day 10: Armstrong Number Checker — Completed
+
+\\- Day 11: GCD of Two Numbers — Completed
+
+\\- Day 12: LCM of Two Numbers — Completed
+
+\\- Day 13: Sum of Digits — Completed
+
+\\- Day 14: Count Digits — Completed
+
+\\- Day 15: Largest and Smallest of N Numbers — Completed
+
+\\- Day 16: Star and Number Patterns — Completed
+
+\\- Days 17–30: Upcoming challenges
+
+**\*\*\\\*\\\*Progress: 16 out of 30 days completed (53.3%).\\\*\\\*\*\***
+
+**\*\*### Next Goal\*\***
+
+Start **\*\*\\\*\\\*Day 17 — Pyramid and Inverted Patterns\\\*\\\*\*\*** with a new programming problem that builds on the concepts I have learned so far.
+
 I'll keep updating this file as I continue learning Python and C, one day at a time. 🚀
