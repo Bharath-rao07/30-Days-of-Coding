@@ -41,7 +41,8 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day13_sum_of_digits.py
 │   ├── day14_count_digits.py
 │   ├── day15_largest_smallest.py
-│   └── day16_star_number_patterns.py
+│   ├── day16_star_number_patterns.py
+│   └── day17_pyramid_inverted.py
 ├── C/
 │   ├── day01_profile.c
 │   ├── day02_calculator.c
@@ -58,7 +59,8 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day13_sum_of_digits.c
 │   ├── day14_count_digits.c
 │   ├── day15_largest_smallest.c
-│   └── day16_star_number_patterns.c
+│   ├── day16_star_number_patterns.c
+│   └── day17_pyramid_inverted.c
 ├── README.md
 └── Progress.md
 ```
@@ -85,13 +87,14 @@ The `Python/` and `C/` folders contain my daily programs. I use `Progress.md` to
 | 14 | Count Digits | Counter variables, `while` loops, integer division | Completed |
 | 15 | Largest and Smallest of N Numbers | Lists, arrays, loops, comparisons | Completed |
 | 16 | Star and Number Patterns | Nested loops, rows, columns, pattern printing | Completed |
-| 17–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
+| 17 | Pyramid and Inverted Patterns | Nested loops, spaces, stars, pattern alignment | Completed |
+| 18–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
 
-**Current progress: 16 out of 30 days completed (53.3%).**
+**Current progress: 17 out of 30 days completed (56.7%).**
 
 ## What I've Learned So Far
 
-During the first sixteen days, I practised:
+During the first seventeen days, I practised:
 
 - Variables and data types.
 - Taking input and displaying output.
@@ -132,6 +135,12 @@ During the first sixteen days, I practised:
 - Printing star triangles, number triangles, and repeated-number patterns.
 - Using `end=" "` in Python to print multiple items on the same line.
 - Moving to a new line using `print()` in Python and `printf("\n")` in C.
+- Using spaces to align stars and create pyramid patterns.
+- Using `rows - i` to calculate leading spaces in a centered pyramid.
+- Using `2 * i - 1` to calculate the number of stars in each pyramid row.
+- Creating inverted pyramids by increasing spaces and decreasing stars.
+- Using separate inner loops to print spaces and stars.
+- Understanding the difference between Python's `range()` and C's `for` loop conditions.
 - Compiling C programs using GCC.
 - Finding errors and practising Git and GitHub workflows.
 
@@ -213,6 +222,12 @@ To run the star and number patterns program:
 
 ```powershell
 python Python/day16_star_number_patterns.py
+```
+
+To run the pyramid and inverted patterns program:
+
+```powershell
+python Python/day17_pyramid_inverted.py
 ```
 
 ### C
@@ -301,6 +316,13 @@ gcc C/day16_star_number_patterns.c -o day16_patterns.exe
 .\day16_patterns.exe
 ```
 
+Compile and run the pyramid and inverted patterns program:
+
+```powershell
+gcc C/day17_pyramid_inverted.c -o day17_patterns.exe
+.\day17_patterns.exe
+```
+
 You can use the same process for the other programs by changing the filenames.
 
 ## My Goal 🎯
@@ -309,6 +331,6 @@ I want to become a better programmer by coding consistently, understanding conce
 
 This repository is a record of what I'm learning throughout the challenge. I'll keep adding programs and updating my progress as I move through the remaining days.
 
-**Progress: 16 out of 30 days completed (53.3%).** 📈
+**Progress: 17 out of 30 days completed (56.7%).** 📈
 
 **One day at a time. One program at a time.** 💻

@@ -1723,4 +1723,80 @@ I want to improve my programming skills by practising every day, understanding c
 
 Start **\*\*\\\*\\\*Day 17 — Pyramid and Inverted Patterns\\\*\\\*\*\*** with a new programming problem that builds on the concepts I have learned so far.
 
-I'll keep updating this file as I continue learning Python and C, one day at a time. 🚀
+**\*\*\\\*\\\*## Day 17 — Pyramid and Inverted Patterns\\\*\\\*\*\***
+
+**\*\*\\\*\\\*\\\\\\\*\\\\\\\*Date:\\\\\\\*\\\\\\\*\\\*\\\*\*\*** 28 October 2026
+
+**\*\*\\\*\\\*### Completed\\\*\\\*\*\***
+
+\\\\- [x] Completed the Pyramid and Inverted Patterns challenge.
+
+\\\\- [x] Studied how spaces and stars create pyramid patterns.
+
+\\\\- [x] Practised using nested loops to generate patterns.
+
+\\\\- [x] Created a centered star pyramid.
+
+\\\\- [x] Created an inverted pyramid.
+
+\\\\- [x] Used an outer loop to control rows.
+
+\\\\- [x] Used inner loops to print spaces and stars.
+
+\\\\- [x] Practised increasing spaces and decreasing stars.
+
+\\\\- [x] Used formulas to calculate the number of spaces and stars in each row.
+
+\\\\- [x] Practised printing multiple characters on the same line.
+
+\\\\- [x] Used newlines to move to the next row.
+
+\\\\- [x] Practised handling positive and non-positive row counts.
+
+**\*\*\\\*\\\*### What I Learned\\\*\\\*\*\***
+
+\\\\- Understanding how nested loops work together to generate patterns.
+
+\\\\- Using spaces to align stars and create a pyramid shape.
+
+\\\\- Understanding how the number of spaces changes from row to row.
+
+\\\\- Using \\\`rows - i\\\` to calculate spaces in a centered pyramid.
+
+\\\\- Using \\\`2 * i - 1\\\` to calculate the number of stars in each pyramid row.
+
+\\\\- Understanding how spaces increase while stars decrease in an inverted pyramid.
+
+\\\\- Using separate inner loops to print spaces and stars.
+
+\\\\- Using \\\`print(" ", end="")\\\` and \\\`print("*", end="")\\\` in Python to print on the same line.
+
+\\\\- Using \\\`printf(" ")\\\` and \\\`printf("*")\\\` in C to print on the same line.
+
+\\\\- Using \\\`print()\\\` in Python and \\\`printf("\\\n")\\\` in C to move to the next line.
+
+\\\\- Understanding the difference between Python's \\\`range()\\\` and C's \\\`for\\\` loop conditions.
+
+\\\\- Using nested loops to solve more complex pattern-based programming problems.
+
+**\*\*\\\*\\\*### Files\\\*\\\*\*\***
+
+\\\\- Python: \\\`Python/day17_pyramid_inverted.py\\\`
+
+\\\\- C: \\\`C/day17_pyramid_inverted.c\\\`
+
+**\*\*\\\*\\\*\\\\\\\*\\\\\\\*Status:\\\\\\\*\\\\\\\*\\\*\\\*\*\*** Completed by user confirmation. Testing details, mini-challenge completion, and GitHub push status have not been independently verified.
+
+**\*\*\\\*\\\*---\\\*\\\*\*\***
+
+**\*\*\\\*\\\*## Project Overview\\\*\\\*\*\***
+
+**\*\*\\\*\\\*\\\\\\\*\\\\\\\*Project:\\\\\\\*\\\\\\\*\\\*\\\*\*\*** 30-Days-of-Coding
+
+**\*\*\\\*\\\*\\\\\\\*\\\\\\\*Languages:\\\\\\\*\\\\\\\*\\\*\\\*\*\*** Python and C
+
+**\*\*\\\*\\\*\\\\\\\*\\\\\\\*Completed:\\\\\\\*\\\\\\\*\\\*\\\*\*\*** 17/30 days
+
+**\*\*\\\*\\\*\\\\\\\*\\\\\\\*Progress:\\\\\\\*\\\\\\\*\\\*\\\*\*\*** 56.7%
+
+**\*\*\\\*\\\*\\\\\\\*\\\\\\\*Next Goal:\\\\\\\*\\\\\\\*\\\*\\\*\*\*** Day 18 — Factorial Using Recursion
