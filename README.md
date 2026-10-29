@@ -42,7 +42,8 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day14_count_digits.py
 │   ├── day15_largest_smallest.py
 │   ├── day16_star_number_patterns.py
-│   └── day17_pyramid_inverted.py
+│   ├── day17_pyramid_inverted.py
+│   └── day18_diamond_pattern.py
 ├── C/
 │   ├── day01_profile.c
 │   ├── day02_calculator.c
@@ -60,7 +61,8 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day14_count_digits.c
 │   ├── day15_largest_smallest.c
 │   ├── day16_star_number_patterns.c
-│   └── day17_pyramid_inverted.c
+│   ├── day17_pyramid_inverted.c
+│   └── day18_diamond_pattern.c
 ├── README.md
 └── Progress.md
 ```
@@ -88,9 +90,10 @@ The `Python/` and `C/` folders contain my daily programs. I use `Progress.md` to
 | 15 | Largest and Smallest of N Numbers | Lists, arrays, loops, comparisons | Completed |
 | 16 | Star and Number Patterns | Nested loops, rows, columns, pattern printing | Completed |
 | 17 | Pyramid and Inverted Patterns | Nested loops, spaces, stars, pattern alignment | Completed |
-| 18–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
+| 18 | Diamond Pattern | Nested loops, spaces, stars, reverse loops | In Progress |
+| 19–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
 
-**Current progress: 17 out of 30 days completed (56.7%).**
+**Current confirmed progress: 17 out of 30 days completed (56.7%).**
 
 ## What I've Learned So Far
 
@@ -143,6 +146,13 @@ During the first seventeen days, I practised:
 - Understanding the difference between Python's `range()` and C's `for` loop conditions.
 - Compiling C programs using GCC.
 - Finding errors and practising Git and GitHub workflows.
+
+### Currently Practising — Day 18
+
+- Combining a pyramid and an inverted pyramid to form a diamond.
+- Printing the top and bottom halves without repeating the widest row.
+- Using a reverse loop to decrease the number of stars.
+- Applying the same pattern logic in Python and C.
 
 I'm still learning, so there is plenty more for me to explore. I want to understand how my programs work instead of just memorising the code.
 
@@ -228,6 +238,12 @@ To run the pyramid and inverted patterns program:
 
 ```powershell
 python Python/day17_pyramid_inverted.py
+```
+
+To run the diamond pattern program:
+
+```powershell
+python Python/day18_diamond_pattern.py
 ```
 
 ### C
@@ -323,6 +339,13 @@ gcc C/day17_pyramid_inverted.c -o day17_patterns.exe
 .\day17_patterns.exe
 ```
 
+Compile and run the diamond pattern program:
+
+```powershell
+gcc C/day18_diamond_pattern.c -o day18_diamond.exe
+.\day18_diamond.exe
+```
+
 You can use the same process for the other programs by changing the filenames.
 
 ## My Goal 🎯
@@ -334,3 +357,5 @@ This repository is a record of what I'm learning throughout the challenge. I'll 
 **Progress: 17 out of 30 days completed (56.7%).** 📈
 
 **One day at a time. One program at a time.** 💻
+
+> **Status note:** Day 18 has been added as in progress. Its completion, testing, and GitHub push have not been confirmed.

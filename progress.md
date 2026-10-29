@@ -1800,3 +1800,54 @@ Start **\*\*\\\*\\\*Day 17 — Pyramid and Inverted Patterns\\\*\\\*\*\*** with 
 **\*\*\\\*\\\*\\\\\\\*\\\\\\\*Progress:\\\\\\\*\\\\\\\*\\\*\\\*\*\*** 56.7%
 
 **\*\*\\\*\\\*\\\\\\\*\\\\\\\*Next Goal:\\\\\\\*\\\\\\\*\\\*\\\*\*\*** Day 18 — Factorial Using Recursion
+
+## Day 18 — Diamond Pattern
+
+**Date:** 29 October 2026
+
+### Completed
+
+- [x] Completed the Diamond Pattern challenge.
+- [x] Studied how a diamond pattern is formed using stars and spaces.
+- [x] Practised using nested loops to generate patterns.
+- [x] Created the top half of a diamond using a pyramid pattern.
+- [x] Created the bottom half of a diamond using an inverted pyramid pattern.
+- [x] Used an outer loop to control rows.
+- [x] Used inner loops to print spaces and stars.
+- [x] Practised increasing and decreasing the number of stars.
+- [x] Used formulas to calculate spaces and stars in each row.
+- [x] Used a reverse loop to print the bottom half.
+- [x] Avoided repeating the widest row of the diamond.
+- [x] Practised printing multiple characters on the same line.
+- [x] Used newlines to move to the next row.
+- [x] Practised handling positive and non-positive row counts.
+
+### What I Learned
+
+- Understanding how a diamond is formed by combining two patterns.
+- Using nested loops to print the top and bottom halves.
+- Using `rows - i` to calculate spaces.
+- Using `2 * i - 1` to calculate the number of stars.
+- Using `range(rows - 1, 0, -1)` to print rows in reverse order in Python.
+- Understanding how a decreasing loop works in C.
+- Avoiding duplicate rows when combining patterns.
+- Applying the same pattern logic in both Python and C.
+- Improving logical thinking through pattern programming.
+
+### Files Created
+
+- `Python/day18_diamond_pattern.py`
+- `C/day18_diamond_pattern.c`
+
+### Status
+
+- Challenge: Not yet confirmed as completed.
+- Testing: Not confirmed.
+- Mini-challenge: Completion not confirmed.
+- Git commit and push: Not confirmed.
+
+### Progress Overview
+
+- Previous progress: 17/30 days (56.7%).
+- Current progress: 18/30 days (60.0%) once Day 18 is confirmed complete.
+- Next goal: Day 19 — To be decided.
