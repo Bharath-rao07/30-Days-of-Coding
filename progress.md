@@ -1851,3 +1851,56 @@ Start **\*\*\\\*\\\*Day 17 — Pyramid and Inverted Patterns\\\*\\\*\*\*** with 
 - Previous progress: 17/30 days (56.7%).
 - Current progress: 18/30 days (60.0%) once Day 18 is confirmed complete.
 - Next goal: Day 19 — To be decided.
+
+## Day 19 — Butterfly Pattern
+
+**Date:** 30 October 2026
+
+### Completed
+
+- [x] Completed the Butterfly Pattern challenge.
+- [x] Studied how a butterfly pattern is formed using stars and spaces.
+- [x] Practised using nested loops to generate patterns.
+- [x] Created the upper half of the butterfly pattern.
+- [x] Created the lower half of the butterfly pattern.
+- [x] Used an outer loop to control the rows.
+- [x] Used inner loops to print left-side stars, middle spaces, and right-side stars.
+- [x] Used `i` to control the number of stars in each row.
+- [x] Used `2 * (rows - i)` to calculate the middle spaces.
+- [x] Used a reverse loop to print the lower half.
+- [x] Avoided repeating the widest row of the butterfly.
+- [x] Practised printing multiple characters on the same line.
+- [x] Used newlines to move to the next row.
+- [x] Applied the same pattern logic in both Python and C.
+
+### What I Learned
+
+- Understanding how a butterfly pattern is formed using two symmetrical halves.
+- Using nested loops to print stars and spaces.
+- Controlling the number of stars using the row number.
+- Calculating middle spaces using `2 * (rows - i)`.
+- Using `range(rows - 1, 0, -1)` to print rows in reverse order in Python.
+- Understanding decreasing loops in C.
+- Avoiding duplicate rows when combining the upper and lower halves.
+- Applying the same pattern logic in both Python and C.
+- Improving logical thinking through pattern programming.
+
+### Files Created
+
+- `Python/day19_butterfly_pattern.py`
+- `C/day19_butterfly_pattern.c`
+
+### Status
+
+- Challenge: Completed.
+- Testing: Not separately confirmed.
+- Mini-challenge: Completion not confirmed.
+- Git commit and push: Not confirmed.
+
+### Progress Overview
+
+- Previous confirmed progress: 17/30 days (56.7%).
+- Current confirmed progress: 18/30 days (60.0%).
+- Day 18: Completion status needs confirmation.
+- Day 19: Completed.
+- Next goal: Day 20 — To be decided.

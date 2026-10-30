@@ -43,7 +43,8 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day15_largest_smallest.py
 │   ├── day16_star_number_patterns.py
 │   ├── day17_pyramid_inverted.py
-│   └── day18_diamond_pattern.py
+│   ├── day18_diamond_pattern.py
+│   └── day19_butterfly_pattern.py
 ├── C/
 │   ├── day01_profile.c
 │   ├── day02_calculator.c
@@ -62,7 +63,8 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day15_largest_smallest.c
 │   ├── day16_star_number_patterns.c
 │   ├── day17_pyramid_inverted.c
-│   └── day18_diamond_pattern.c
+│   ├── day18_diamond_pattern.c
+│   └── day19_butterfly_pattern.c
 ├── README.md
 └── Progress.md
 ```
@@ -91,9 +93,10 @@ The `Python/` and `C/` folders contain my daily programs. I use `Progress.md` to
 | 16 | Star and Number Patterns | Nested loops, rows, columns, pattern printing | Completed |
 | 17 | Pyramid and Inverted Patterns | Nested loops, spaces, stars, pattern alignment | Completed |
 | 18 | Diamond Pattern | Nested loops, spaces, stars, reverse loops | In Progress |
-| 19–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
+| 19 | Butterfly Pattern | Nested loops, stars, spaces, reverse loops, pattern symmetry | Completed |
+| 20–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
 
-**Current confirmed progress: 17 out of 30 days completed (56.7%).**
+**Current confirmed progress: 18 out of 30 days completed (60.0%).**
 
 ## What I've Learned So Far
 
@@ -146,6 +149,18 @@ During the first seventeen days, I practised:
 - Understanding the difference between Python's `range()` and C's `for` loop conditions.
 - Compiling C programs using GCC.
 - Finding errors and practising Git and GitHub workflows.
+
+### Additional Concepts — Day 19
+
+- Understanding how a butterfly pattern is formed using two symmetrical halves.
+- Using nested loops to print stars and spaces.
+- Controlling the number of stars using the row number.
+- Using `2 * (rows - i)` to calculate the middle spaces.
+- Using `range(rows - 1, 0, -1)` to print rows in reverse order in Python.
+- Understanding decreasing loops in C.
+- Avoiding duplicate rows when combining the upper and lower halves.
+- Applying the same pattern logic in both Python and C.
+- Improving logical thinking through pattern programming.
 
 ### Currently Practising — Day 18
 
@@ -244,6 +259,12 @@ To run the diamond pattern program:
 
 ```powershell
 python Python/day18_diamond_pattern.py
+```
+
+To run the butterfly pattern program:
+
+```powershell
+python Python/day19_butterfly_pattern.py
 ```
 
 ### C
@@ -346,6 +367,13 @@ gcc C/day18_diamond_pattern.c -o day18_diamond.exe
 .\day18_diamond.exe
 ```
 
+Compile and run the butterfly pattern program:
+
+```powershell
+gcc C/day19_butterfly_pattern.c -o day19_butterfly.exe
+.\day19_butterfly.exe
+```
+
 You can use the same process for the other programs by changing the filenames.
 
 ## My Goal 🎯
@@ -354,8 +382,7 @@ I want to become a better programmer by coding consistently, understanding conce
 
 This repository is a record of what I'm learning throughout the challenge. I'll keep adding programs and updating my progress as I move through the remaining days.
 
-**Progress: 17 out of 30 days completed (56.7%).** 📈
+**Progress: 18 out of 30 days completed (60.0%).** 📈
 
 **One day at a time. One program at a time.** 💻
 
-> **Status note:** Day 18 has been added as in progress. Its completion, testing, and GitHub push have not been confirmed.
