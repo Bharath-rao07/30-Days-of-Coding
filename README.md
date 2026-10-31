@@ -44,7 +44,8 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day16_star_number_patterns.py
 │   ├── day17_pyramid_inverted.py
 │   ├── day18_diamond_pattern.py
-│   └── day19_butterfly_pattern.py
+│   ├── day19_butterfly_pattern.py
+│   └── day20_number_pyramid.py
 ├── C/
 │   ├── day01_profile.c
 │   ├── day02_calculator.c
@@ -64,7 +65,8 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 │   ├── day16_star_number_patterns.c
 │   ├── day17_pyramid_inverted.c
 │   ├── day18_diamond_pattern.c
-│   └── day19_butterfly_pattern.c
+│   ├── day19_butterfly_pattern.c
+│   └── day20_number_pyramid.c
 ├── README.md
 └── Progress.md
 ```
@@ -94,13 +96,14 @@ The `Python/` and `C/` folders contain my daily programs. I use `Progress.md` to
 | 17 | Pyramid and Inverted Patterns | Nested loops, spaces, stars, pattern alignment | Completed |
 | 18 | Diamond Pattern | Nested loops, spaces, stars, reverse loops | In Progress |
 | 19 | Butterfly Pattern | Nested loops, stars, spaces, reverse loops, pattern symmetry | Completed |
-| 20–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
+| 20 | Number Pyramid Pattern | Nested loops, spaces, numbers, pattern alignment | Completed |
+| 21–30 | Upcoming Coding Problems | Practice and problem-solving | Upcoming |
 
-**Current confirmed progress: 18 out of 30 days completed (60.0%).**
+**Current confirmed progress: 19 out of 30 days completed (63.3%).**
 
 ## What I've Learned So Far
 
-During the first seventeen days, I practised:
+During the first twenty days, I practised:
 
 - Variables and data types.
 - Taking input and displaying output.
@@ -162,11 +165,24 @@ During the first seventeen days, I practised:
 - Applying the same pattern logic in both Python and C.
 - Improving logical thinking through pattern programming.
 
-### Currently Practising — Day 18
+### Additional Concepts — Day 20
 
-- Combining a pyramid and an inverted pyramid to form a diamond.
-- Printing the top and bottom halves without repeating the widest row.
-- Using a reverse loop to decrease the number of stars.
+- Understanding how a number pyramid is formed using spaces and numbers.
+- Using nested loops to print number patterns.
+- Using an outer loop to control the rows.
+- Using inner loops to print spaces and numbers separately.
+- Using `rows - i` to calculate the number of spaces.
+- Using `range(1, i + 1)` in Python to print increasing numbers.
+- Understanding how loop conditions work in C.
+- Controlling the number of values printed in each row.
+- Applying the same pattern logic in both Python and C.
+- Improving logical thinking through pattern programming.
+
+### Currently Practising — Day 20
+
+- Creating number pyramid patterns using nested loops.
+- Printing spaces to align numbers.
+- Increasing the number of values in each row.
 - Applying the same pattern logic in Python and C.
 
 I'm still learning, so there is plenty more for me to explore. I want to understand how my programs work instead of just memorising the code.
@@ -265,6 +281,12 @@ To run the butterfly pattern program:
 
 ```powershell
 python Python/day19_butterfly_pattern.py
+```
+
+To run the number pyramid pattern program:
+
+```powershell
+python Python/day20_number_pyramid.py
 ```
 
 ### C
@@ -374,6 +396,13 @@ gcc C/day19_butterfly_pattern.c -o day19_butterfly.exe
 .\day19_butterfly.exe
 ```
 
+Compile and run the number pyramid pattern program:
+
+```powershell
+gcc C/day20_number_pyramid.c -o day20_number_pyramid.exe
+.\day20_number_pyramid.exe
+```
+
 You can use the same process for the other programs by changing the filenames.
 
 ## My Goal 🎯
@@ -382,7 +411,7 @@ I want to become a better programmer by coding consistently, understanding conce
 
 This repository is a record of what I'm learning throughout the challenge. I'll keep adding programs and updating my progress as I move through the remaining days.
 
-**Progress: 18 out of 30 days completed (60.0%).** 📈
+**Progress: 19 out of 30 days completed (63.3%).** 📈
 
 **One day at a time. One program at a time.** 💻
 

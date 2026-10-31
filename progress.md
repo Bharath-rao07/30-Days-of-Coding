@@ -1904,3 +1904,57 @@ Start **\*\*\\\*\\\*Day 17 — Pyramid and Inverted Patterns\\\*\\\*\*\*** with 
 - Day 18: Completion status needs confirmation.
 - Day 19: Completed.
 - Next goal: Day 20 — To be decided.
+
+## Day 20 — Number Pyramid Pattern
+
+**Date:** 31 October 2026
+
+### Completed
+
+- [x] Completed the Number Pyramid Pattern challenge.
+- [x] Studied how a number pyramid is formed using spaces and numbers.
+- [x] Practised using nested loops to generate number patterns.
+- [x] Used an outer loop to control the rows.
+- [x] Used the first inner loop to print spaces.
+- [x] Used the second inner loop to print numbers.
+- [x] Used `rows - i` to calculate the number of spaces.
+- [x] Used `i` to control the number of values printed in each row.
+- [x] Printed numbers in increasing order in each row.
+- [x] Practised printing multiple values on the same line.
+- [x] Used newlines to move to the next row.
+- [x] Applied the same pattern logic in both Python and C.
+- [x] Practised handling positive and non-positive row counts.
+
+### What I Learned
+
+- Understanding how a number pyramid is formed using nested loops.
+- Using spaces to align numbers and create a pyramid shape.
+- Using an outer loop to control the rows.
+- Using inner loops to print spaces and numbers separately.
+- Understanding how `rows - i` calculates the spaces.
+- Using `range(1, i + 1)` in Python to print increasing numbers.
+- Understanding how loop conditions work in C.
+- Controlling the number of values printed in each row.
+- Applying the same pattern logic in both Python and C.
+- Improving logical thinking through pattern programming.
+
+### Files Created
+
+- `Python/day20_number_pyramid.py`
+- `C/day20_number_pyramid.c`
+
+### Status
+
+- Challenge: Completed.
+- Testing: Not separately confirmed.
+- Mini-challenge: Completion not confirmed.
+- Git commit and push: Not confirmed.
+
+### Progress Overview
+
+- Previous confirmed progress: 18/30 days (60.0%).
+- Current confirmed progress: 19/30 days (63.3%).
+- Day 18: Completion status needs confirmation.
+- Day 19: Completed.
+- Day 20: Completed.
+- Next goal: Day 21 — To be decided.
