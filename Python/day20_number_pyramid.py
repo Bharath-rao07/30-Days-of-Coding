@@ -7,10 +7,10 @@ else:
 
     for i in range(1, rows + 1):
 
-        for j in range(rows - i):
+        for j in range(rows - i): # This prints the spaces
             print(" ", end="  ")
 
-        for j in range(1, i + 1):
+        for j in range(1, i + 1):  # This prints the numbers 
             print(j, end=" ")
 
         print()
