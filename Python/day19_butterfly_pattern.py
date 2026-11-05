@@ -10,11 +10,11 @@ else:
 
         # Left stars
         for j in range(i):
-            print("*", end="")
+            print("*", end="") #this prints *
 
         # Middle spaces
         for j in range(2 * (rows - i)):
-            print(" ", end="")
+            print(" ", end="") 
 
         # Right stars
         for j in range(i):
