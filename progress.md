@@ -1958,3 +1958,58 @@ Start **\*\*\\\*\\\*Day 17 — Pyramid and Inverted Patterns\\\*\\\*\*\*** with 
 - Day 19: Completed.
 - Day 20: Completed.
 - Next goal: Day 21 — To be decided.
+
+**Date:** 7 November 2026
+
+### Completed
+
+- [ ] Completed the Floyd's Triangle challenge.
+- [ ] Studied how Floyd's Triangle is formed using consecutive numbers.
+- [ ] Practised using nested loops to generate number patterns.
+- [ ] Used an outer loop to control the rows.
+- [ ] Used an inner loop to print numbers in each row.
+- [ ] Used a variable num to store the current number.
+- [ ] Started the number sequence from 1.
+- [ ] Used i to control how many numbers are printed in each row.
+- [ ] Used num = num + 1 in Python to move to the next number.
+- [ ] Used num++ in C to increment the number.
+- [ ] Continued the number sequence without resetting it at the beginning of each row.
+- [ ] Practised printing multiple numbers on the same line.
+- [ ] Used newlines to move to the next row.
+- [ ] Applied the same pattern logic in both Python and C.
+- [ ] Practised handling positive and non-positive row counts.
+
+### What I Learned
+
+- Understanding how Floyd's Triangle is formed using consecutive numbers.
+- Using nested loops to print number patterns.
+- Understanding the role of the outer loop and inner loop.
+- Using a separate variable to maintain the number sequence.
+- Understanding why the number variable should not be reset in every row.
+- Using range(1, i + 1) in Python to control the numbers printed in each row.
+- Understanding how loop conditions work in C.
+- Using increment operators to generate consecutive numbers.
+- Applying the same pattern logic in both Python and C.
+- Improving logical thinking through pattern programming.
+
+### Files Created
+
+- Python/day21_floyds_triangle.py
+- C/day21_floyds_triangle.c
+
+### Status
+
+- Challenge: Not yet confirmed.
+- Testing: Not confirmed.
+- Mini-challenge: Completion not confirmed.
+- Git commit and push: Not confirmed.
+
+### Progress Overview
+
+- Previous confirmed progress: 19/30 days (63.3%).
+- Current confirmed progress: 19/30 days (63.3%).
+- Day 18: Completion status needs confirmation.
+- Day 19: Completed.
+- Day 20: Completed.
+- Day 21: Awaiting completion confirmation.
+- Next goal: Day 22 — To be decided.
