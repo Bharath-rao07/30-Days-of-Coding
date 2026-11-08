@@ -2013,3 +2013,60 @@ Start **\*\*\\\*\\\*Day 17 — Pyramid and Inverted Patterns\\\*\\\*\*\*** with 
 - Day 20: Completed.
 - Day 21: Awaiting completion confirmation.
 - Next goal: Day 22 — To be decided.
+
+**\*\*Date:\*\*** 8 November 2026
+
+**### Completed**
+
+\- [x] Completed the Perfect Number Checker challenge.
+\- [x] Studied what a Perfect Number is.
+\- [x] Understood how to find the proper divisors of a number.
+\- [x] Practised using the modulus operator (%) to check divisibility.
+\- [x] Used a for loop to check numbers from 1 to number - 1.
+\- [x] Used an if condition to identify proper divisors.
+\- [x] Used a variable `sum` to store the total of proper divisors.
+\- [x] Used `sum = sum + i` to add divisors to the total.
+\- [x] Compared the sum of proper divisors with the original number.
+\- [x] Used if-else conditions to check whether a number is perfect.
+\- [x] Practised handling positive and non-positive numbers.
+\- [x] Implemented the same logic in both Python and C.
+\- [x] Tested the Python program with different inputs.
+\- [x] Tested the C program with different inputs.
+
+**### What I Learned**
+
+\- Understanding the concept of Perfect Numbers.
+\- Finding the proper divisors of a number.
+\- Using the modulus operator (%) to check whether a number is divisible by another number.
+\- Understanding how the for loop checks possible divisors.
+\- Using an accumulator variable to calculate the sum.
+\- Understanding why the number itself is excluded from its proper divisors.
+\- Comparing two values using the equality operator (==).
+\- Using if-else conditions to determine the result.
+\- Handling zero and negative numbers.
+\- Understanding how the same logic can be implemented in Python and C.
+\- Improving logical thinking through number-based programming problems.
+
+**### Files Created**
+
+\- `Python/day22_perfect_number.py`
+\- `C/day22_perfect_number.c`
+
+**### Status**
+
+\- Challenge: Completed.
+\- Python testing: Passed (6, 28, 12, 1).
+\- C testing: Passed (6, 28, 12, 1, -5).
+\- Mini-challenge: Completion not confirmed.
+\- Git commit and push: Not confirmed.
+
+**### Progress Overview**
+
+\- Previous confirmed progress: 20/30 days (66.7%).
+\- Current confirmed progress: 21/30 days (70%).
+\- Day 18: Completion status needs confirmation.
+\- Day 19: Completed.
+\- Day 20: Completed.
+\- Day 21: Completed.
+\- Day 22: Completed.
+\- Next goal: Day 23 — To be decided.
