@@ -1,3 +1,4 @@
+#DAY 20  : number pyramid 
 rows = int(input("Enter the number of rows: "))
 
 if rows <= 0:
