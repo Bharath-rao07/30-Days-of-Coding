@@ -10,11 +10,11 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 
 
 
-**\*\*\\\*\\\*## What I Want to Achieve\\\*\\\*\*\***
+**\*\*\\\*\\\*## What I Want to Achieve\\\*\\\*\*\** *
 
 
 
-\\\\- Practise coding regularly.
+\\\\- Practise coding regula rly.
 
 
 
@@ -1005,7 +1005,7 @@ python Python/day23_strong_number.py
 
 
 
-Compile and run the profile generator:
+Compile and run the profile generator :
 
 
 
