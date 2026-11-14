@@ -10,11 +10,19 @@ I'm learning programming as part of my engineering journey. I know some basics, 
 
 
 
+<<<<<<< HEAD
 **\*\*\\\*\\\*\\\\\\\*\\\\\\\*## What I Want to Achieve\\\\\\\*\\\\\\\*\\\*\\\*\*\***
 
 
 
 \\\\\\\\- Practise coding regularly.
+=======
+**\*\*\\\*\\\*## What I Want to Achieve\\\*\\\*\*\** *
+
+
+
+\\\\- Practise coding regula rly.
+>>>>>>> 7d057bdd358f48f996d4f26c5af0ee9d3bda48e5
 
 
 
@@ -1090,7 +1098,7 @@ python Python/day24_fibonacci_series.py
 
 
 
-Compile and run the profile generator:
+Compile and run the profile generator :
 
 
 
@@ -1390,4 +1398,8 @@ This repository is a record of what I'm learning throughout the challenge. I'll 
 
 
 
+<<<<<<< HEAD
 **\*\*\\\*\\\*\\\\\\\*\\\\\\\*\\\\\\\\\\\\\\\*\\\\\\\\\\\\\\\*One day at a time. One program at a time.\\\\\\\\\\\\\\\*\\\\\\\\\\\\\\\*\\\\\\\*\\\\\\\*\\\*\\\*\*\*** 💻
+=======
+**\*\*\\\*\\\*\\\\\\\*\\\\\\\*One day at a time. One program at a time.\\\\\\\*\\\\\\\*\\\*\\\*\*\*** 💻...
+>>>>>>> 7d057bdd358f48f996d4f26c5af0ee9d3bda48e5
